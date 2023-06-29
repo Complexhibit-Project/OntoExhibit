@@ -1,0 +1,4262 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/OntoExhibit/"
+     xml:base="https://w3id.org/OntoExhibit/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/OntoExhibit/">
+        <owl:versionIRI rdf:resource="https://w3id.org/OntoExhibit/1.0.0"/>
+        <terms:created>2022-11</terms:created>
+        <terms:creator>Maria del Mar Roldán García</terms:creator>
+        <terms:creator>Martín Jerónimo Salvachúa</terms:creator>
+        <terms:creator>Nuria Rodríguez Ortega</terms:creator>
+        <terms:description>OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information.</terms:description>
+        <terms:rights>https://opensource.org/licenses/MIT</terms:rights>
+        <terms:title>OntoExhibit</terms:title>
+        <vann:preferredNamespacePrefix>oex</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/OntoExhibit/</vann:preferredNamespaceUri>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#equivalentClass -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#equivalentClass"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/broughtIntoAction -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/broughtIntoAction">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasBroughtIntoAction"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/BeginningOfActivity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">brought into action</rdfs:label>
+        <rdfs:label xml:lang="es">dio inicio a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/broughtIntoEndOfAction -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/broughtIntoEndOfAction">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasBroughtIntoEndOfAction"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/EndOfActivity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">brought into end of action</rdfs:label>
+        <rdfs:label xml:lang="es">dio fin a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/broughtIntoEndOfExistence -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/broughtIntoEndOfExistence">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasBroughtIntoEndOfExistence"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Object"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">brought into end of existence</rdfs:label>
+        <rdfs:label xml:lang="es">llevó a su fin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/broughtIntoExistence -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/broughtIntoExistence">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasBroughtIntoExistence"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Object"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">brought into existence</rdfs:label>
+        <rdfs:label xml:lang="es">trajo a la existencia</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/broughtIntoLife -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/broughtIntoLife">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasBorn"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="en">brought into life</rdfs:label>
+        <rdfs:label xml:lang="es">fue el nacimiento de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/carriedOut -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/carriedOut">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasCarriedOutBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Action"/>
+        <rdfs:label xml:lang="en">carried out</rdfs:label>
+        <rdfs:label xml:lang="es">llevó a cabo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/carries -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/carries">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isCarriedBy"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="en">carries</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/closed -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/closed">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasClosedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Closing"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">clausuró</rdfs:label>
+        <rdfs:label xml:lang="en">closed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/collaboratedWith -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/collaboratedWith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">colaboró con</rdfs:label>
+        <rdfs:label xml:lang="en">collaborated with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/comprises -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/comprises">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isCompisedIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">comprende</rdfs:label>
+        <rdfs:label xml:lang="en">comprises</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/conceived -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/conceived">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasConceived"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Conception"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:label xml:lang="en">conceived</rdfs:label>
+        <rdfs:label xml:lang="es">concibió</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/corporateBodyIsPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/corporateBodyIsPartOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheEntityMatrixOf"/>
+        <rdfs:domain rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:range rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="es">es parte de</rdfs:label>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/created -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/created">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasCreated"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">created</rdfs:label>
+        <rdfs:label xml:lang="es">creó</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/destroyed -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/destroyed">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasDestroyed"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NonHumanActor"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">destroyed</rdfs:label>
+        <rdfs:label xml:lang="es">destruyó</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/develops -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/develops">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isDevelopedIn"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ConceptualWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">desarrolla</rdfs:label>
+        <rdfs:label xml:lang="en">develops</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/diedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/diedIn">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasDeathOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death"/>
+        <rdfs:label xml:lang="en">died in</rdfs:label>
+        <rdfs:label xml:lang="es">falleció</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/dissolved -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/dissolved">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasDissolved"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">disolvió</rdfs:label>
+        <rdfs:label xml:lang="en">dissolved</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/documents -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/documents">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isDocumentedIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/InformationObject"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="es">documenta</rdfs:label>
+        <rdfs:label xml:lang="en">documents</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/expands -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/expands">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isExpandedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/CuratorialDiscourse"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">amplia</rdfs:label>
+        <rdfs:label xml:lang="en">expands</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/featured -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/featured">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasFeaturedIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/ExhibitionaryEvent"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/WorkManifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">expuso a</rdfs:label>
+        <rdfs:label xml:lang="en">featured</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/found -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/found">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasFounded"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Foundation"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">found</rdfs:label>
+        <rdfs:label xml:lang="es">fundó</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/groupIsPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/groupIsPartOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheMatrixGroupOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:label xml:lang="es">es parte de</rdfs:label>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasAffiliates -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasAffiliates">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheAffiliationTo"/>
+        <rdfs:domain rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Affiliate"/>
+        <rdfs:label xml:lang="en">has affiliates</rdfs:label>
+        <rdfs:label xml:lang="es">tiene afiliados</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasAlmaMater -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasAlmaMater">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isAlmaMaterOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/AlmaMater"/>
+        <rdfs:label xml:lang="en">has alma mater</rdfs:label>
+        <rdfs:label xml:lang="es">tiene alma mater</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasAssigned -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasAssigned">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isAssignedTo"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ConceptualWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Exhibition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/InformationObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Role"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">has assigned</rdfs:label>
+        <rdfs:label xml:lang="es">tiene asignado</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasAssociated -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasAssociated">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isAssociatedTo"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="en">has associated</rdfs:label>
+        <rdfs:label xml:lang="es">tiene asociado a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasAssociatedActivity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasAssociatedActivity">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheAssociatedActivityOf"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">has associated activity</rdfs:label>
+        <rdfs:label xml:lang="es">tiene asociada la actividad</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasAuthor -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasAuthor">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheAuthorOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/LiteraryWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NonHumanActor"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/WorkManifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Author"/>
+        <rdfs:label xml:lang="en">has as author</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como autor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasConcept -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasConcept">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isConceptOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/LiteraryWork"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Concept"/>
+        <rdfs:label xml:lang="en">has as a concept</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como concepto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasCorporateBodyUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasCorporateBodyUnit">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isCorporateBodyUnitOf"/>
+        <rdfs:domain rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/CorporateBodyUnit"/>
+        <rdfs:label xml:lang="en">has corporate body unit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasCreator -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasCreator">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isCreatorOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Creator"/>
+        <rdfs:label xml:lang="es">creador</rdfs:label>
+        <rdfs:label xml:lang="en">has creator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasCuratorialDiscourse -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasCuratorialDiscourse">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheCuratorialDiscourseOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/LiteraryWork"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/CuratorialDiscourse"/>
+        <rdfs:label xml:lang="en">has curatorial discourse</rdfs:label>
+        <rdfs:label xml:lang="es">tiene discurso comisarial</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasEditor -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasEditor">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheEditorOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Catalogue"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Editor"/>
+        <rdfs:label xml:lang="en">has editor</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como editor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasEndingDate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasEndingDate">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheEndingDateOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:label xml:lang="en">has ending date</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como fecha de fin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasFinancer -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasFinancer">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheFinancerOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Catalogue"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Financier"/>
+        <rdfs:label xml:lang="en">has financer</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como financiador</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasHeadquarter -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasHeadquarter">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheHeadquarterOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+        <rdfs:label xml:lang="en">has headquarter</rdfs:label>
+        <rdfs:label xml:lang="es">tiene su sede en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasInformationObject -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasInformationObject">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheInformationObjectOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/InformationObject"/>
+        <rdfs:label xml:lang="en">has information object</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como objeto de información</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasInformationSource -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasInformationSource">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isInformationSourceOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/HumanActant"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">has information source</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como fuente de información</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasItinerantExhibition -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasItinerantExhibition">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isItinerantWith"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="en">has itinerant exhibition</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como exposicion itinerante a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasNarrativeDiscursiveUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasNarrativeDiscursiveUnit">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheNarrativeDiscurseUnitOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"/>
+        <rdfs:label xml:lang="en">has narrative/discursive unit</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como unidad narrativa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasNarrativeStructure -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasNarrativeStructure">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isNarrativeStructureOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/NarrativeStructure"/>
+        <rdfs:label xml:lang="en">has narrative structure</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como estructura narrativa</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasOwner -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasOwner">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheOwnerOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Owner"/>
+        <rdfs:label xml:lang="en">has owner</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como propietario</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasPlaceOfActivity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasPlaceOfActivity">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isThePlaceOfActivityOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:label xml:lang="es">desarrolla su actividad en</rdfs:label>
+        <rdfs:label xml:lang="en">has place of activity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasProviderOfInformation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasProviderOfInformation">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/providesInformationOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">has provider of information</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como proveedor de información a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasPublication -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasPublication">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isPublicationOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Publication"/>
+        <rdfs:label xml:lang="en">has publication</rdfs:label>
+        <rdfs:label xml:lang="es">se publica</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasResidence -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasResidence">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheResidenceOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Person"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Residence"/>
+        <rdfs:label xml:lang="en">has residence</rdfs:label>
+        <rdfs:label xml:lang="es">tiene residencia</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasRole -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasRole">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheRolePlayedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">has as role</rdfs:label>
+        <rdfs:label xml:lang="es">tiene el rol</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasSocialPublication -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasSocialPublication">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheSocialPublicationOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">has social publication</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como publicación social</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasSpatialUnit -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasSpatialUnit">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isPartOf"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/SpatialUnit"/>
+        <rdfs:label xml:lang="en">has spatial unit</rdfs:label>
+        <rdfs:label xml:lang="es">tiene unidad espacial</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasStartingDate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasStartingDate">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheStartingDateOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:label xml:lang="en">has starting date</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como fecha de inicio</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasSubject -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasSubject">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheSubjectOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ConceptualWork"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/ThemeSubjectTopic"/>
+        <rdfs:label xml:lang="en">has subject</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como tema/topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasSupraterritorialEntity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasSupraterritorialEntity">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheSupraterritorialEntityOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+        <rdfs:label xml:lang="en">has supraterritorial entity</rdfs:label>
+        <rdfs:label xml:lang="es">tiene como entidad supraterritorial a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasVenue -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasVenue">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheVenueOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:label xml:lang="en">has venue</rdfs:label>
+        <rdfs:label xml:lang="es">tiene sede</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/involves -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/involves">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isInvolvedIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Concept"/>
+        <rdfs:label xml:lang="es">implica</rdfs:label>
+        <rdfs:label xml:lang="en">involves</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isAlmaMaterOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isAlmaMaterOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/AlmaMater"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="es">es alma mater de</rdfs:label>
+        <rdfs:label xml:lang="en">is alma mater of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isAssignedTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isAssignedTo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/InformationObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Role"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ConceptualWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Exhibition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">está asignado a</rdfs:label>
+        <rdfs:label xml:lang="en">is assigned to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isAssociatedTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isAssociatedTo">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">está asociado a</rdfs:label>
+        <rdfs:label xml:lang="en">is associated to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isCarriedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isCarriedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">is carried by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isCompisedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isCompisedIn">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">está compuesto por</rdfs:label>
+        <rdfs:label xml:lang="en">is comprised in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isConceptOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isConceptOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Concept"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/LiteraryWork"/>
+        <rdfs:label xml:lang="es">es concepto de</rdfs:label>
+        <rdfs:label xml:lang="en">is concept of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isCorporateBodyUnitOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isCorporateBodyUnitOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/CorporateBodyUnit"/>
+        <rdfs:range rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="es">es la unidad de organización corporativa de</rdfs:label>
+        <rdfs:label xml:lang="en">is the corporate body unit of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isCreatorOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isCreatorOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Creator"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es el creador de</rdfs:label>
+        <rdfs:label xml:lang="en">is creator of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isDevelopedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isDevelopedIn">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ConceptualWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es propuesto por</rdfs:label>
+        <rdfs:label xml:lang="en">is proposed by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isDiscipleOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isDiscipleOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheMasterOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Disciple"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:label xml:lang="es">es discípulo de</rdfs:label>
+        <rdfs:label xml:lang="en">is disciple of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isDocumentedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isDocumentedIn">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/InformationObject"/>
+        <rdfs:label xml:lang="es">está descrita en</rdfs:label>
+        <rdfs:label xml:lang="en">is documented in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isExpandedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isExpandedBy">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/CuratorialDiscourse"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">es ampliado por</rdfs:label>
+        <rdfs:label xml:lang="en">is expanded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isFatherOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isFatherOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="es">es el padre de</rdfs:label>
+        <rdfs:label xml:lang="en">is the father of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isInformationSourceOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isInformationSourceOf">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/HumanActant"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="es">es fuente de información de</rdfs:label>
+        <rdfs:label xml:lang="en">is informationSource of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isInvolvedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isInvolvedIn">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Concept"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">está involucrado en</rdfs:label>
+        <rdfs:label xml:lang="en">is involved in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isItinerantWith -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isItinerantWith">
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="es">es itinerante con</rdfs:label>
+        <rdfs:label xml:lang="en">is itinerant with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isLocatedAt -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isLocatedAt">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheLocationOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/HumanActant"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:label xml:lang="es">está situado en</rdfs:label>
+        <rdfs:label xml:lang="en">is located at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isMaterializedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isMaterializedIn">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/materializes"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <rdfs:label xml:lang="en">is materialized in</rdfs:label>
+        <rdfs:label xml:lang="es">se materializa en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isMemberOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isMemberOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheGroupOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Member"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:label xml:lang="es">es miembro de</rdfs:label>
+        <rdfs:label xml:lang="en">is member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isMentionedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isMentionedIn">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/mentionsTo"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Manifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/InformationObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Manifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es mencionado en</rdfs:label>
+        <rdfs:label xml:lang="en">is mentioned in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isNarrativeStructureOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isNarrativeStructureOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/NarrativeStructure"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:label xml:lang="es">es la estructura narrativa de</rdfs:label>
+        <rdfs:label xml:lang="en">is the structure narrative of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isPartOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isPartOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/SpatialUnit"/>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:label xml:lang="es">es parte de</rdfs:label>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isPublicationOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isPublicationOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Publication"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="es">es la publicación de</rdfs:label>
+        <rdfs:label xml:lang="en">is publication of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isRepresentedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isRepresentedBy">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/representsTo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Gallery"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Representative"/>
+        <rdfs:label xml:lang="es">es representado por</rdfs:label>
+        <rdfs:label xml:lang="en">is represented by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheAffiliationTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheAffiliationTo">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Affiliate"/>
+        <rdfs:range rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="es">está afiliado a</rdfs:label>
+        <rdfs:label xml:lang="en">is the affiliation to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheAssociatedActivityOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheAssociatedActivityOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+        <rdfs:label xml:lang="es">es la actividad asociada a</rdfs:label>
+        <rdfs:label xml:lang="en">is the associated activity of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheAuthorOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheAuthorOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Author"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/LiteraryWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NonHumanActor"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/WorkManifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es autor de</rdfs:label>
+        <rdfs:label xml:lang="en">is the author of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheCuratorialDiscourseOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheCuratorialDiscourseOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/CuratorialDiscourse"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/LiteraryWork"/>
+        <rdfs:label xml:lang="es">es el discurso comisarial de</rdfs:label>
+        <rdfs:label xml:lang="en">is the curatorial discourse of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheDaughterOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheDaughterOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="es">es la hija de</rdfs:label>
+        <rdfs:label xml:lang="en">is the daughter of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheEditorOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheEditorOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Editor"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Catalogue"/>
+        <rdfs:label xml:lang="es">es editor de</rdfs:label>
+        <rdfs:label xml:lang="en">is the editor of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheEndingDateOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheEndingDateOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+        <rdfs:label xml:lang="es">es la fecha de fin de</rdfs:label>
+        <rdfs:label xml:lang="en">is the ending date of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheEntityMatrixOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheEntityMatrixOf">
+        <rdfs:domain rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:range rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="es">es la entidad matriz de</rdfs:label>
+        <rdfs:label xml:lang="en">is the entity matrix of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheFinancerOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheFinancerOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Financier"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Catalogue"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es financiador de</rdfs:label>
+        <rdfs:label xml:lang="en">is the financer of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheGroupOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheGroupOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Member"/>
+        <rdfs:label xml:lang="es">es el grupo de</rdfs:label>
+        <rdfs:label xml:lang="en">is the group of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheHeadquarterOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheHeadquarterOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es la sede de</rdfs:label>
+        <rdfs:label xml:lang="en">is the headquarter of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheInformationObjectOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheInformationObjectOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/InformationObject"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">es el objeto de información de</rdfs:label>
+        <rdfs:label xml:lang="en">is the information object of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheLocationOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheLocationOf">
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/HumanActant"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es el ubicación de</rdfs:label>
+        <rdfs:label xml:lang="en">is the location of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheMasterOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheMasterOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Disciple"/>
+        <rdfs:label xml:lang="es">es el maestro de</rdfs:label>
+        <rdfs:label xml:lang="en">is the master of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheMatrixGroupOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheMatrixGroupOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:comment>is the matrix group of</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheMotherOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheMotherOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="es">es la madre de</rdfs:label>
+        <rdfs:label xml:lang="en">is the mother of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheNarrativeDiscurseUnitOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheNarrativeDiscurseUnitOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:label xml:lang="es">es la unidad narrativa de</rdfs:label>
+        <rdfs:label xml:lang="en">is the narrative/discurse unit of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheOwnerOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheOwnerOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Owner"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es propietario de</rdfs:label>
+        <rdfs:label xml:lang="en">is the owner of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isThePlaceOfActivityOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isThePlaceOfActivityOf">
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">es el lugar de actividad de</rdfs:label>
+        <rdfs:label xml:lang="en">is the place of activity of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheResidenceOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheResidenceOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Residence"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Person"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es la residencia de</rdfs:label>
+        <rdfs:label xml:lang="en">is the residence of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheRolePlayedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheRolePlayedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">es el rol desempeñado por</rdfs:label>
+        <rdfs:label xml:lang="en">is the role played by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheSocialPublicationOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheSocialPublicationOf">
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">es la publicación social de</rdfs:label>
+        <rdfs:label xml:lang="en">is the social publication of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheSonOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheSonOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="es">es el hijo de</rdfs:label>
+        <rdfs:label xml:lang="en">is the son of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheStartingDateOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheStartingDateOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+        <rdfs:label xml:lang="es">es la fecha de inicio de</rdfs:label>
+        <rdfs:label xml:lang="en">is the starting date of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheSubjectOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheSubjectOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/ThemeSubjectTopic"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ConceptualWork"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es tema/topic de</rdfs:label>
+        <rdfs:label xml:lang="en">is the subject of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheSupraterritorialEntityOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheSupraterritorialEntityOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+        <rdfs:label xml:lang="es">es la entidad supraterritorial de</rdfs:label>
+        <rdfs:label xml:lang="en">is the supraterritorial entity of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheVenueOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheVenueOf">
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es la sede de</rdfs:label>
+        <rdfs:label xml:lang="en">is the venue of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTimeSpanOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTimeSpanOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/tookPlaceIn"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TimeSpan"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Residence"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Role"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">es el rango temporal de</rdfs:label>
+        <rdfs:label xml:lang="en">is time-span of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTraded -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTraded">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/trades"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Gallery"/>
+        <rdfs:label xml:lang="es">es intercambiado por</rdfs:label>
+        <rdfs:label xml:lang="en">is traded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/materializes -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/materializes">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Exhibition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:label xml:lang="es">es la materialización de</rdfs:label>
+        <rdfs:label xml:lang="en">materializes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/mentionsTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/mentionsTo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/InformationObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Manifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Manifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">menciona a</rdfs:label>
+        <rdfs:label xml:lang="en">mentions to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/opened -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/opened">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasOpenedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Opening"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">inauguró</rdfs:label>
+        <rdfs:label xml:lang="en">opened</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/produced -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/produced">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasProduced"/>
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/LiteraryWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NonHumanActor"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">produced</rdfs:label>
+        <rdfs:label xml:lang="es">produjo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/providesInformationOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/providesInformationOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">proporciona información de</rdfs:label>
+        <rdfs:label xml:lang="en">provides information of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/publish -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/publish">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasPublishedBy"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Publication"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <rdfs:label xml:lang="es">publicó</rdfs:label>
+        <rdfs:label xml:lang="en">publish</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/representsTo -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/representsTo">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Representative"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Gallery"/>
+        <rdfs:label xml:lang="es">representa a</rdfs:label>
+        <rdfs:label xml:lang="en">represents to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/tookPlaceAt -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/tookPlaceAt">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/wasThePlaceOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Residence"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:label xml:lang="en">took place at</rdfs:label>
+        <rdfs:label xml:lang="es">tuvo lugar en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/tookPlaceIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/tookPlaceIn">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Residence"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Role"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TimeSpan"/>
+        <rdfs:label xml:lang="en">took place in</rdfs:label>
+        <rdfs:label xml:lang="es">tuvo lugar en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/trades -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/trades">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Gallery"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="es">intercambia</rdfs:label>
+        <rdfs:label xml:lang="en">trades</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasBorn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasBorn">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth"/>
+        <rdfs:label xml:lang="es">nació</rdfs:label>
+        <rdfs:label xml:lang="en">was born</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasBroughtIntoAction -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasBroughtIntoAction">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/BeginningOfActivity"/>
+        <rdfs:label xml:lang="es">fue iniciada en</rdfs:label>
+        <rdfs:label xml:lang="en">was brought into action</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasBroughtIntoEndOfAction -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasBroughtIntoEndOfAction">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/EndOfActivity"/>
+        <rdfs:label xml:lang="es">fue finalizada en</rdfs:label>
+        <rdfs:label xml:lang="en">was brought into end of action</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasBroughtIntoEndOfExistence -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasBroughtIntoEndOfExistence">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Object"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"/>
+        <rdfs:label xml:lang="es">llegó al final de su existencia</rdfs:label>
+        <rdfs:label xml:lang="en">was brought into end of existence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasBroughtIntoExistence -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasBroughtIntoExistence">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Object"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"/>
+        <rdfs:label xml:lang="es">fue traído a la existencia</rdfs:label>
+        <rdfs:label xml:lang="en">was brought into existence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasCarriedOutBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasCarriedOutBy">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Action"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">fue llevada a cabo por</rdfs:label>
+        <rdfs:label xml:lang="en">was carried out by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasClosedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasClosedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Closing"/>
+        <rdfs:label xml:lang="es">fue clausurada por</rdfs:label>
+        <rdfs:label xml:lang="en">was closed by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasConceived -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasConceived">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Conception"/>
+        <rdfs:label xml:lang="es">fue concebido</rdfs:label>
+        <rdfs:label xml:lang="en">was conceived</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasCreated -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasCreated">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"/>
+        <rdfs:label xml:lang="es">fue creado</rdfs:label>
+        <rdfs:label xml:lang="en">was created</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasDeathOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasDeathOf">
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:label xml:lang="es">fue el fallecimiento de</rdfs:label>
+        <rdfs:label xml:lang="en">was death of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasDestroyed -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasDestroyed">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NonHumanActor"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction"/>
+        <rdfs:label xml:lang="es">fue destruido</rdfs:label>
+        <rdfs:label xml:lang="en">was destroyed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasDissolved -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasDissolved">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution"/>
+        <rdfs:label xml:lang="es">fue disuelto</rdfs:label>
+        <rdfs:label xml:lang="en">was dissolved</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasFeaturedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasFeaturedIn">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/WorkManifestation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/ExhibitionaryEvent"/>
+        <rdfs:label xml:lang="es">fue expuesto en</rdfs:label>
+        <rdfs:label xml:lang="en">was featured in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasFounded -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasFounded">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Group"/>
+                    <rdf:Description rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Foundation"/>
+        <rdfs:label xml:lang="es">fue fundado</rdfs:label>
+        <rdfs:label xml:lang="en">was founded</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasOpenedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasOpenedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Opening"/>
+        <rdfs:label xml:lang="es">fue inaugurada por</rdfs:label>
+        <rdfs:label xml:lang="en">was opened by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasProduced -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasProduced">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/LiteraryWork"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/MaterialObject"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/NonHumanActor"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Proposition"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production"/>
+        <rdfs:label xml:lang="es">fue producido</rdfs:label>
+        <rdfs:label xml:lang="en">was produced</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasPublishedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasPublishedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Publication"/>
+        <rdfs:label xml:lang="es">fue publicada por</rdfs:label>
+        <rdfs:label xml:lang="en">was published by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/wasThePlaceOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/wasThePlaceOf">
+        <rdfs:domain rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Residence"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label xml:lang="es">fue el lugar de</rdfs:label>
+        <rdfs:label xml:lang="en">was the place of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ISIC4 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/ISIC4">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Company"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">ISIC4 category</rdfs:label>
+        <rdfs:label xml:lang="es">categoría ISIC4</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/access -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/access">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">access</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de acceso</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/activity -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/activity">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">actividad</rdfs:label>
+        <rdfs:label xml:lang="en">activity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/address -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/address">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">address</rdfs:label>
+        <rdfs:label xml:lang="es">dirección</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/appellative -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/appellative">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">apelativo</rdfs:label>
+        <rdfs:label xml:lang="en">appellative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/coordinates -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/coordinates">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/PhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/SpatialUnit"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">coordenadas geográficas</rdfs:label>
+        <rdfs:label xml:lang="en">coordinates</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/description -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/description">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">descripción</rdfs:label>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/gender -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/gender">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">gender</rdfs:label>
+        <rdfs:label xml:lang="es">género</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/identifier -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/identifier">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">identificador</rdfs:label>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/name">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+                    <rdf:Description rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/nationality -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/nationality">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">nacionalidad</rdfs:label>
+        <rdfs:label xml:lang="en">nationality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/numberOfAttendants -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/numberOfAttendants">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">number of attendants</rdfs:label>
+        <rdfs:label xml:lang="es">número de asistentes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/numberOfInhabitants -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/numberOfInhabitants">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="es">nº de habitantes</rdfs:label>
+        <rdfs:label xml:lang="en">nº of inhabitants</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/numberOfUsers -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/numberOfUsers">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TechnoPlace"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="es">n.º de usuarios</rdfs:label>
+        <rdfs:label xml:lang="en">n.º of users</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/priceFee -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/priceFee">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">precio</rdfs:label>
+        <rdfs:label xml:lang="en">price/fee</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/program -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/program">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">program</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/socialNetworkProfiles -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/socialNetworkProfiles">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="es">perfil en red social</rdfs:label>
+        <rdfs:label xml:lang="en">social network profiles</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/type -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/type">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Institution"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TechnoPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">tipo</rdfs:label>
+        <rdfs:label xml:lang="en">type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/typeOfExhibition -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/typeOfExhibition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">tipo de exposición</rdfs:label>
+        <rdfs:label xml:lang="en">type of exhibition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/typeOfInstitution -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/typeOfInstitution">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Institution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">tipo de institución</rdfs:label>
+        <rdfs:label xml:lang="en">type of institution</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/typeOfSocialContent -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/typeOfSocialContent">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/SocialContentGeneration"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">tipo de contenido social</rdfs:label>
+        <rdfs:label xml:lang="en">type of social content</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/webPage -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit/webPage">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Actant"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Activity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="es">página web</rdfs:label>
+        <rdfs:label xml:lang="en">web page</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"/>
+        <rdfs:label xml:lang="es">producción</rdfs:label>
+        <rdfs:label xml:lang="en">production</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place">
+        <rdfs:comment xml:lang="es">espacio concreto y determinado en el que tienen lugar o se desarrollan acontecimientos-acciones (de la clase  Event o actividades desempeñadas por la clase Actant) o lugar que constituye la posición/ubicación de algo o alguien en el espacio (físico o digital).</rdfs:comment>
+        <rdfs:label xml:lang="es">lugar</rdfs:label>
+        <rdfs:label xml:lang="en">place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event">
+        <rdfs:label xml:lang="en">event</rdfs:label>
+        <rdfs:label xml:lang="es">evento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Action"/>
+        <rdfs:label xml:lang="en">beginning of existence</rdfs:label>
+        <rdfs:label xml:lang="es">inicio de existencia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Action"/>
+        <rdfs:label xml:lang="en">end of existence</rdfs:label>
+        <rdfs:label xml:lang="es">fin de existencia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"/>
+        <rdfs:label xml:lang="es">creación</rdfs:label>
+        <rdfs:label xml:lang="en">creation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"/>
+        <rdfs:label xml:lang="en">birth</rdfs:label>
+        <rdfs:label xml:lang="es">nacimiento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"/>
+        <rdfs:label xml:lang="es">disolución</rdfs:label>
+        <rdfs:label xml:lang="en">dissolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"/>
+        <rdfs:label xml:lang="en">death</rdfs:label>
+        <rdfs:label xml:lang="es">muerte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction -->
+
+
+    <owl:Class rdf:about="http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"/>
+        <rdfs:label xml:lang="es">destrucción</rdfs:label>
+        <rdfs:label xml:lang="en">destruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Actant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Actant">
+        <rdfs:label xml:lang="en">actant</rdfs:label>
+        <rdfs:label xml:lang="es">actante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Action -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Action">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+        <rdfs:label xml:lang="es">acción</rdfs:label>
+        <rdfs:label xml:lang="en">action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Activity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Activity">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"/>
+        <rdfs:comment xml:lang="es">evento concreto y programado de índole social, académico, artístico, etc</rdfs:comment>
+        <rdfs:label xml:lang="es">actividad</rdfs:label>
+        <rdfs:label xml:lang="en">activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Affiliate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Affiliate">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">affiliate</rdfs:label>
+        <rdfs:label xml:lang="es">afiliado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/AlmaMater -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/AlmaMater">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">alma mater</rdfs:label>
+        <rdfs:label xml:lang="es">alma mater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ApproximateDate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ApproximateDate">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:label xml:lang="en">approximate date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha aproximada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ArtContest -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ArtContest">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ExhibitionaryEvent"/>
+        <rdfs:label xml:lang="en">art contest</rdfs:label>
+        <rdfs:label xml:lang="es">concurso artístico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ArtistsGroup -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ArtistsGroup">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:label xml:lang="en">artists group</rdfs:label>
+        <rdfs:label xml:lang="es">colectivo de artistas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/AssementAssignment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/AssementAssignment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/PropositionAssignment"/>
+        <rdfs:label xml:lang="es">asignación de valoración</rdfs:label>
+        <rdfs:label xml:lang="en">assement assignment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/AssistantCurator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/AssistantCurator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">assistant curator</rdfs:label>
+        <rdfs:label xml:lang="es">ayudante de comisario</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Auction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Auction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ExhibitionaryEvent"/>
+        <rdfs:label xml:lang="en">auction</rdfs:label>
+        <rdfs:label xml:lang="es">subasta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/AuctionHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/AuctionHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Company"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/AudioWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/AudioWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="en">audio work</rdfs:label>
+        <rdfs:label xml:lang="es">obra auditiva</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/AudiovisualWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/AudiovisualWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="en">audiovisual work</rdfs:label>
+        <rdfs:label xml:lang="es">obra audiovisual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Author -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Author">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">author</rdfs:label>
+        <rdfs:label xml:lang="es">autor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/BeginningOfActivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/BeginningOfActivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">beginning of activity</rdfs:label>
+        <rdfs:label xml:lang="es">inicio de la acción/actividad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Biennial -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Biennial">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="es">bienal</rdfs:label>
+        <rdfs:label xml:lang="en">biennial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Catalogue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Catalogue">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/InformationObject"/>
+        <rdfs:label xml:lang="en">catalogue</rdfs:label>
+        <rdfs:label xml:lang="es">catálogo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Closing -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Closing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/EndOfActivity"/>
+        <rdfs:label xml:lang="es">clausura</rdfs:label>
+        <rdfs:label xml:lang="en">closing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Collaborator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Collaborator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">colaborador</rdfs:label>
+        <rdfs:label xml:lang="en">collaborator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Comment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Comment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">comentario</rdfs:label>
+        <rdfs:label xml:lang="en">comment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/CommentOnBlog -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/CommentOnBlog">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/LinguisticWork"/>
+        <rdfs:label xml:lang="es">comentario en blog</rdfs:label>
+        <rdfs:label xml:lang="en">comment on blog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/CommentOnSocialNetwork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/CommentOnSocialNetwork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/LinguisticWork"/>
+        <rdfs:label xml:lang="es">comentario en red social</rdfs:label>
+        <rdfs:label xml:lang="en">comment on social network</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Communities -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Communities">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Group"/>
+        <rdfs:label xml:lang="en">communities</rdfs:label>
+        <rdfs:label xml:lang="es">comunidades</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Company -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Company">
+        <rdfs:subClassOf rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="en">company</rdfs:label>
+        <rdfs:label xml:lang="es">compañía</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Concept -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Concept">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:label xml:lang="en">concept</rdfs:label>
+        <rdfs:label xml:lang="es">concepto, entidad conceptual</rdfs:label>
+        <owl:equivalentClass xml:lang="es">https://www.iflastandards.info/fr/frbr/frbroo#F6</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Conception -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Conception">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"/>
+        <rdfs:label xml:lang="es">concepción</rdfs:label>
+        <rdfs:label xml:lang="en">conception</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ConceptualWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ConceptualWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:comment xml:lang="es">la formulación puramente intelectual/conceptual de una obra</rdfs:comment>
+        <rdfs:label xml:lang="en">conceptual work</rdfs:label>
+        <rdfs:label xml:lang="es">trabajo conceptual</rdfs:label>
+        <owl:equivalentClass>https://www.iflastandards.info/fr/frbr/frbroo#F1</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Conference -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Conference">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="en">conference</rdfs:label>
+        <rdfs:label xml:lang="es">congreso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ConmemorativeEvent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ConmemorativeEvent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">conmemorative event</rdfs:label>
+        <rdfs:label xml:lang="es">evento conmemorativo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Coordinator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Coordinator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">coordinador/a</rdfs:label>
+        <rdfs:label xml:lang="en">coordinator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/CorporateBodyUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/CorporateBodyUnit">
+        <rdfs:subClassOf rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="en">corporate body unit</rdfs:label>
+        <rdfs:label xml:lang="es">unidad de organización corporativa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Creator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Creator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">creador</rdfs:label>
+        <rdfs:label xml:lang="en">creator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Curation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Curation">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"/>
+        <rdfs:label xml:lang="en">curation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Curator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Curator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">comisario</rdfs:label>
+        <rdfs:label xml:lang="en">curator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/CuratorialDiscourse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/CuratorialDiscourse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:comment xml:lang="es">La ideas, argumentos, tesis, etc. desarrolladas específicamente por un proyecto expositivo-curatorial</rdfs:comment>
+        <rdfs:label xml:lang="en">curatorial discourse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/CuratorialProposal -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/CuratorialProposal">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:label xml:lang="en">curatorial proposal</rdfs:label>
+        <rdfs:label xml:lang="es">propuesta de comisariado</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/DataBase -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/DataBase">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/InformationObject"/>
+        <rdfs:label xml:lang="es">base de datos</rdfs:label>
+        <rdfs:label xml:lang="en">data base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Date -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Date">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/TimeSpan"/>
+        <rdfs:label xml:lang="en">date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Designer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Designer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">designer</rdfs:label>
+        <rdfs:label xml:lang="es">diseñador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/DigitalObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/DigitalObject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/OntoExhibit/PhysicalObject"/>
+        <rdfs:label xml:lang="en">digital object</rdfs:label>
+        <rdfs:label xml:lang="es">objeto digital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Disciple -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Disciple">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">disciple</rdfs:label>
+        <rdfs:label xml:lang="es">discípulo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/DisseminationActivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/DisseminationActivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">actividad de difusión</rdfs:label>
+        <rdfs:label xml:lang="en">dissemination activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Documental -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Documental">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="en">documental</rdfs:label>
+        <rdfs:label xml:lang="es">documental</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Editor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Editor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">editor</rdfs:label>
+        <rdfs:label xml:lang="es">editor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/EndOfActivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/EndOfActivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="en">end of activity</rdfs:label>
+        <rdfs:label xml:lang="es">fin de la acción/actividad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Essay -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Essay">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">ensayo</rdfs:label>
+        <rdfs:label xml:lang="en">essay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ExactDate -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ExactDate">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:label xml:lang="en">exact date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha exacta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Exhibition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Exhibition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ExhibitionaryEvent"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <rdfs:label xml:lang="en">exhibition</rdfs:label>
+        <rdfs:label xml:lang="es">exposición</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ExhibitionCuratorialProject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ExhibitionCuratorialProject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:label xml:lang="en">exhibition curatorial project</rdfs:label>
+        <rdfs:label xml:lang="es">proyecto de comisariado de la exposición</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ExhibitionIdea -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ExhibitionIdea">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:label xml:lang="en">exhibition idea</rdfs:label>
+        <rdfs:label xml:lang="es">idea de exposición</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ExhibitionMaking -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ExhibitionMaking">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production"/>
+        <rdfs:label xml:lang="en">exhibition making</rdfs:label>
+        <rdfs:label xml:lang="es">realización de la exposición</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ExhibitionaryEvent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ExhibitionaryEvent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:comment xml:lang="es">eventos en los que hay exposiciones (display) de objetos y/o producciones artísticas; o en los que se muestran objetos artísticos. La actividad exhibitiva puede ser más o menos prevalente o tener mayor o menor peso en el evento</rdfs:comment>
+        <rdfs:label xml:lang="es">eventos exhibitivos</rdfs:label>
+        <rdfs:label xml:lang="en">exhibitionary event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Exhibitor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Exhibitor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">exhibitor</rdfs:label>
+        <rdfs:label xml:lang="es">participa como autor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Fair -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Fair">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ExhibitionaryEvent"/>
+        <rdfs:label xml:lang="en">fair</rdfs:label>
+        <rdfs:label xml:lang="es">feria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/FamilyWorkshop -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/FamilyWorkshop">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="en">family workshop</rdfs:label>
+        <rdfs:label xml:lang="es">taller familiar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/FilmProyection -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/FilmProyection">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="en">film proyection</rdfs:label>
+        <rdfs:label xml:lang="es">proyección de cine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Financier -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Financier">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">financiador</rdfs:label>
+        <rdfs:label xml:lang="en">financier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Foundation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Foundation">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"/>
+        <rdfs:label xml:lang="en">foundation</rdfs:label>
+        <rdfs:label xml:lang="es">fundación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Gallery -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Gallery">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Company"/>
+        <rdfs:label xml:lang="es">galería</rdfs:label>
+        <rdfs:label xml:lang="en">gallery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/GenerativeWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/GenerativeWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="en">generative work</rdfs:label>
+        <rdfs:label xml:lang="es">obra generativa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/GraphicDesigner -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/GraphicDesigner">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">diseñador/a gráfico</rdfs:label>
+        <rdfs:label xml:lang="en">graphic designer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Group -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Group">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:label xml:lang="en">group</rdfs:label>
+        <rdfs:label xml:lang="es">grupo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/GuidedTour -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/GuidedTour">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="en">guided tour</rdfs:label>
+        <rdfs:label xml:lang="es">visita comentada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/HumanActant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/HumanActant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">actante humano</rdfs:label>
+        <rdfs:label xml:lang="en">human actant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Illustrator -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Illustrator">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">illustrator</rdfs:label>
+        <rdfs:label xml:lang="es">ilustrador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/InformationObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/InformationObject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="en">information object</rdfs:label>
+        <rdfs:label xml:lang="es">objeto de información</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/InmersiveExperience -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/InmersiveExperience">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/VirtualWork"/>
+        <rdfs:label xml:lang="es">experiencia inmersiva</rdfs:label>
+        <rdfs:label xml:lang="en">inmersive experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Institution -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Institution">
+        <rdfs:subClassOf rdf:resource="https://www.iflastandards.info/fr/frbr/frbroo#F11"/>
+        <rdfs:label xml:lang="es">institución</rdfs:label>
+        <rdfs:label xml:lang="en">institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Instructor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Instructor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">instructor</rdfs:label>
+        <rdfs:label xml:lang="es">instructor/a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Interpretation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Interpretation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">interpretación</rdfs:label>
+        <rdfs:label xml:lang="en">interpretation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/InterpretationAssignment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/InterpretationAssignment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/PropositionAssignment"/>
+        <rdfs:label xml:lang="es">asignación de interpretación</rdfs:label>
+        <rdfs:label xml:lang="en">interpretation assignment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/JournalisticCritique -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/JournalisticCritique">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/LinguisticWork"/>
+        <rdfs:label xml:lang="es">crítica periodística</rdfs:label>
+        <rdfs:label xml:lang="en">journalistic critique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Lender -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Lender">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">lender</rdfs:label>
+        <rdfs:label xml:lang="es">prestador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/LinguisticWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/LinguisticWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="en">linguistic work</rdfs:label>
+        <rdfs:label xml:lang="es">obra lingüística</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/LiteraryEssays -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/LiteraryEssays">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/LinguisticWork"/>
+        <rdfs:label xml:lang="es">ensayo literario</rdfs:label>
+        <rdfs:label xml:lang="en">literary essay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/LiteraryWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/LiteraryWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:label xml:lang="en">literary work</rdfs:label>
+        <rdfs:label xml:lang="es">obra literaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Manifestation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Manifestation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <rdfs:label xml:lang="es">manifestación</rdfs:label>
+        <rdfs:label xml:lang="en">manifestation</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://iflastandards.info/ns/fr/frbr/frbroo/F4_Manifestation_Singleton</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/MaterialObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/MaterialObject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Object"/>
+        <rdfs:label xml:lang="en">material object</rdfs:label>
+        <rdfs:label xml:lang="es">objeto material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Meeting -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Meeting">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="es">encuentro</rdfs:label>
+        <rdfs:label xml:lang="en">meeting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Member -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Member">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">member</rdfs:label>
+        <rdfs:label xml:lang="es">miembro</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Museographer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Museographer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">museographer</rdfs:label>
+        <rdfs:label xml:lang="es">museógrafo/a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/MusicEvent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/MusicEvent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="es">evento musical</rdfs:label>
+        <rdfs:label xml:lang="en">music event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:comment xml:lang="es">las partes discursivas y/o narrativas en las que se articula una obra intelectual. Se trata de una segmentación explícita que puede desarrollar una o más proposiciones</rdfs:comment>
+        <rdfs:label xml:lang="en">narrative/discursive unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/NarrativeStructure -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/NarrativeStructure">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/OrganizationSchema"/>
+        <rdfs:label xml:lang="es">estructura narrativa</rdfs:label>
+        <rdfs:label xml:lang="en">narrative structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/NarrativeThematicUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/NarrativeThematicUnit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/OrganizationSchema"/>
+        <rdfs:label xml:lang="en">narrative thematic unit</rdfs:label>
+        <rdfs:label xml:lang="es">unidad temática narrativa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/NaturalPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/NaturalPlace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/PhysicalPlace"/>
+        <rdfs:label xml:lang="es">lugar natural</rdfs:label>
+        <rdfs:label xml:lang="en">natural place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/NonHumanActor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/NonHumanActor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="es">actor no humano</rdfs:label>
+        <rdfs:label xml:lang="en">non-human actor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Object -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Object">
+        <rdfs:label xml:lang="es">cosa</rdfs:label>
+        <rdfs:label xml:lang="en">object</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://cidoc-crm.org/cidoc-crm/7.1.1/E70_Thing</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/OpenDay -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/OpenDay">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/DisseminationActivity"/>
+        <rdfs:label xml:lang="es">jornada de puertas abiertas</rdfs:label>
+        <rdfs:label xml:lang="en">open day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Opening -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Opening">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/BeginningOfActivity"/>
+        <rdfs:label xml:lang="es">inauguración</rdfs:label>
+        <rdfs:label xml:lang="en">opening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/OrganizationSchema -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/OrganizationSchema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:label xml:lang="es">esquema de organización</rdfs:label>
+        <rdfs:label xml:lang="en">organization schema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Organizer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Organizer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">organizador</rdfs:label>
+        <rdfs:label xml:lang="en">organizer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Owner -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Owner">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">owner</rdfs:label>
+        <rdfs:label xml:lang="es">propietario</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Participant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Participant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">participant</rdfs:label>
+        <rdfs:label xml:lang="es">participante</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/PerfomativeWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/PerfomativeWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="es">obra perfomativa</rdfs:label>
+        <rdfs:label xml:lang="en">perfomative work</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Person -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Person">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:label xml:lang="en">person</rdfs:label>
+        <rdfs:label xml:lang="es">persona</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/PhysicalObject -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/PhysicalObject">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/MaterialObject"/>
+        <rdfs:label xml:lang="es">objeto físico</rdfs:label>
+        <rdfs:label xml:lang="en">physical object</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://cidoc-crm.org/cidoc-crm/7.1.1/E19_Physical_Object</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/PhysicalPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/PhysicalPlace">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:label xml:lang="es">lugar físico</rdfs:label>
+        <rdfs:label xml:lang="en">physical place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Podcast -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Podcast">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/AudioWork"/>
+        <rdfs:label xml:lang="en">podcast</rdfs:label>
+        <rdfs:label xml:lang="es">pódcast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/PressEvent -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/PressEvent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/DisseminationActivity"/>
+        <rdfs:label xml:lang="en">press event</rdfs:label>
+        <rdfs:label xml:lang="es">rueda de prensa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ProducedPhysicalPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ProducedPhysicalPlace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/PhysicalPlace"/>
+        <rdfs:label xml:lang="es">lugar hecho por el hombre</rdfs:label>
+        <rdfs:label xml:lang="en">produced physical place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ProjectDirector -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ProjectDirector">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">director/a de proyecto</rdfs:label>
+        <rdfs:label xml:lang="en">project director</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Proposition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Proposition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"/>
+        <rdfs:comment xml:lang="es">ideas, argumentos, relatos, tesis, valoraciones, interpretaciones… contenido semántico</rdfs:comment>
+        <rdfs:label xml:lang="es">proposición</rdfs:label>
+        <rdfs:label xml:lang="en">proposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/PropositionAssignment -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/PropositionAssignment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Action"/>
+        <rdfs:label xml:lang="es">asignación de propuesta</rdfs:label>
+        <rdfs:label xml:lang="en">proposition assignment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Public -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Public">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="en">public</rdfs:label>
+        <rdfs:label xml:lang="es">público</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Publication -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Publication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">publicación</rdfs:label>
+        <rdfs:label xml:lang="en">publication</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.iflastandards.info/fr/frbr/frbroo#F30</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Publisher -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Publisher">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">editor</rdfs:label>
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Representative -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Representative">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">representante</rdfs:label>
+        <rdfs:label xml:lang="en">representative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ResearchAssistant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ResearchAssistant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">ayudante de investigación</rdfs:label>
+        <rdfs:label xml:lang="en">research assistant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Residence -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Residence">
+        <rdfs:label xml:lang="en">residence</rdfs:label>
+        <rdfs:label xml:lang="es">residencia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Review -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Review">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">crítica</rdfs:label>
+        <rdfs:label xml:lang="en">review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Role -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Role">
+        <rdfs:label xml:lang="es">rol</rdfs:label>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ScholarlyCritiqueWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ScholarlyCritiqueWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="en">scholarly-critique work</rdfs:label>
+        <rdfs:label xml:lang="es">trabajo académico-crítico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ScholarlyEducationalActivity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">actividad educativa académica</rdfs:label>
+        <rdfs:label xml:lang="en">scholarly-educational activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/SchollaryCritiqueWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/SchollaryCritiqueWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ConceptualWork"/>
+        <rdfs:label xml:lang="en">schollary critique work</rdfs:label>
+        <rdfs:label xml:lang="es">trabajo de crítica escolar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Seminar -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Seminar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="en">seminar</rdfs:label>
+        <rdfs:label xml:lang="es">seminario</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/SocialContentGeneration -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/SocialContentGeneration">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"/>
+        <rdfs:label xml:lang="es">generación de contenidos sociales</rdfs:label>
+        <rdfs:label xml:lang="en">social content generation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/SocialGeneratedProposition -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/SocialGeneratedProposition">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">propuesta social generada</rdfs:label>
+        <rdfs:label xml:lang="en">social generated proposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/SocialReaction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/SocialReaction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Action"/>
+        <rdfs:label xml:lang="es">reacción social</rdfs:label>
+        <rdfs:label xml:lang="en">social reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/SpatialUnit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/SpatialUnit">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:comment xml:lang="es">unidades espaciales que pertenecen o forman parte de otros espacios mayores. Por ejemplo, la Sala Noble es una unidad espacial que pertenece al Palacio de Villalón, sede de la institución Museo Carmen Thyssen Málaga.</rdfs:comment>
+        <rdfs:label xml:lang="en">spatial unit</rdfs:label>
+        <rdfs:label xml:lang="es">unidad espacial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Supporter -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Supporter">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">patrocinador</rdfs:label>
+        <rdfs:label xml:lang="en">supporter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/TechnoNonHumanActant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/TechnoNonHumanActant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:label xml:lang="en">techno non-human actant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/TechnoPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/TechnoPlace">
+        <rdfs:subClassOf rdf:resource="http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"/>
+        <rdfs:comment xml:lang="es">lugar definido por su naturaleza tecnológica, digital y/o computacional</rdfs:comment>
+        <rdfs:label xml:lang="en">techno place</rdfs:label>
+        <rdfs:label xml:lang="es">tecno-lugar/lugar digital y/o computacional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/TerritorialEntity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/TerritorialEntity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/PhysicalPlace"/>
+        <rdfs:label xml:lang="es">entidad territorial</rdfs:label>
+        <rdfs:label xml:lang="en">territorial entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Theme -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Theme">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">tema</rdfs:label>
+        <rdfs:label xml:lang="en">theme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/ThemeSubjectTopic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/ThemeSubjectTopic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="es">tema, materia, tópico</rdfs:label>
+        <rdfs:label xml:lang="en">theme/subject/topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Thesis -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Thesis">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Proposition"/>
+        <rdfs:label xml:lang="en">thesis</rdfs:label>
+        <rdfs:label xml:lang="es">tésis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/TimeRange -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/TimeRange">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/TimeSpan"/>
+        <rdfs:label xml:lang="es">rango temporal</rdfs:label>
+        <rdfs:label xml:lang="en">time range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/TimeSpan -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/TimeSpan">
+        <rdfs:label xml:lang="es">periodo de tiempo</rdfs:label>
+        <rdfs:label xml:lang="en">time-span</rdfs:label>
+        <owl:equivalentClass rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://cidoc-crm.org/cidoc-crm/7.1.1/E52_Time-Span</owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Tour -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Tour">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="en">tour</rdfs:label>
+        <rdfs:label xml:lang="es">tour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Tour360 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Tour360">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/VirtualWork"/>
+        <rdfs:label xml:lang="es">recorrido 360</rdfs:label>
+        <rdfs:label xml:lang="en">tour360</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Triennial -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Triennial">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Exhibition"/>
+        <rdfs:label xml:lang="es">trienal</rdfs:label>
+        <rdfs:label xml:lang="en">triennial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Vernissage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Vernissage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/BeginningOfActivity"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/VirtualWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/VirtualWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="es">obra virtual</rdfs:label>
+        <rdfs:label xml:lang="en">virtual work</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Visitor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Visitor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Role"/>
+        <rdfs:label xml:lang="es">visitante</rdfs:label>
+        <rdfs:label xml:lang="en">visitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/VisualOrganizationSchema -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/VisualOrganizationSchema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/OrganizationSchema"/>
+        <rdfs:label xml:lang="es">esquema de organización visual</rdfs:label>
+        <rdfs:label xml:lang="en">visual organization schema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/VisualWork -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/VisualWork">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/WorkManifestation"/>
+        <rdfs:label xml:lang="es">obra visual</rdfs:label>
+        <rdfs:label xml:lang="en">visual work</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/WorkManifestation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/WorkManifestation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Manifestation"/>
+        <rdfs:label xml:lang="es">manifestación de obra</rdfs:label>
+        <rdfs:label xml:lang="en">work manifestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/Workshop -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/Workshop">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"/>
+        <rdfs:label xml:lang="es">taller</rdfs:label>
+        <rdfs:label xml:lang="en">workshop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/3DReconstruction -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/3DReconstruction">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/VirtualWork"/>
+        <rdfs:label xml:lang="en">3D reconstruction</rdfs:label>
+        <rdfs:label xml:lang="es">reconstrucción 3D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object -->
+
+
+    <owl:Class rdf:about="https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Object"/>
+        <rdfs:comment xml:lang="es">entidades puramente intelectuales y/o conceptuales, sin materialización concreta</rdfs:comment>
+        <rdfs:label xml:lang="en">conceptual object</rdfs:label>
+        <rdfs:label xml:lang="es">objeto conceptual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.iflastandards.info/fr/frbr/frbroo#F11 -->
+
+
+    <owl:Class rdf:about="https://www.iflastandards.info/fr/frbr/frbroo#F11">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:comment xml:lang="es">son organizaciones “humanas” pero con estructuras más complejas que no pueden reducirse a lo puramente humano</rdfs:comment>
+        <rdfs:label xml:lang="en">corporate body</rdfs:label>
+        <rdfs:label xml:lang="es">organismos corporativos</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

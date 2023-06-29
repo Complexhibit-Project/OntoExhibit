@@ -1,0 +1,5476 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Manifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Manifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NonHumanActor"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Catalogue"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid128",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Person"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NonHumanActor"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid146",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Residence"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Role"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid150",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid153",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Manifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid156",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Manifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid159",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NonHumanActor"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid167",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid171",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Residence"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid174",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Residence"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Role"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid178",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid181",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid188",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NonHumanActor"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid192",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid195",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid198",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NonHumanActor"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid209",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Residence"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid212",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/PhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/SpatialUnit"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid223",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Institution"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid227",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/CuratorialDiscourse"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Actant"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Role"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NonHumanActor"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Catalogue"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Person"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Group"
+    }, {
+      "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Role"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/Activity"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/OntoExhibit/CuratorialDiscourse"
+    }, {
+      "@id" : "https://w3id.org/OntoExhibit/Proposition"
+    } ]
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "producción"
+  }, {
+    "@language" : "en",
+    "@value" : "production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "espacio concreto y determinado en el que tienen lugar o se desarrollan acontecimientos-acciones (de la clase  Event o actividades desempeñadas por la clase Actant) o lugar que constituye la posición/ubicación de algo o alguien en el espacio (físico o digital)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "lugar"
+  }, {
+    "@language" : "en",
+    "@value" : "place"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "event"
+  }, {
+    "@language" : "es",
+    "@value" : "evento"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "beginning of existence"
+  }, {
+    "@language" : "es",
+    "@value" : "inicio de existencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Action"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "end of existence"
+  }, {
+    "@language" : "es",
+    "@value" : "fin de existencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Action"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "creación"
+  }, {
+    "@language" : "en",
+    "@value" : "creation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "birth"
+  }, {
+    "@language" : "es",
+    "@value" : "nacimiento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "disolución"
+  }, {
+    "@language" : "en",
+    "@value" : "dissolution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "death"
+  }, {
+    "@language" : "es",
+    "@value" : "muerte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"
+  } ]
+}, {
+  "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "destrucción"
+  }, {
+    "@language" : "en",
+    "@value" : "destruction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#equivalentClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "2022-11"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Maria del Mar Roldán García"
+  }, {
+    "@value" : "Martín Jerónimo Salvachúa"
+  }, {
+    "@value" : "Nuria Rodríguez Ortega"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information."
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@value" : "https://opensource.org/licenses/MIT"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@value" : "OntoExhibit"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "oex"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/OntoExhibit/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/3DReconstruction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "3D reconstruction"
+  }, {
+    "@language" : "es",
+    "@value" : "reconstrucción 3D"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/VirtualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Actant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "actant"
+  }, {
+    "@language" : "es",
+    "@value" : "actante"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "acción"
+  }, {
+    "@language" : "en",
+    "@value" : "action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "evento concreto y programado de índole social, académico, artístico, etc"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "actividad"
+  }, {
+    "@language" : "en",
+    "@value" : "activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Affiliate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "affiliate"
+  }, {
+    "@language" : "es",
+    "@value" : "afiliado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/AlmaMater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "alma mater"
+  }, {
+    "@language" : "es",
+    "@value" : "alma mater"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ApproximateDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "approximate date"
+  }, {
+    "@language" : "es",
+    "@value" : "fecha aproximada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Date"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ArtContest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "art contest"
+  }, {
+    "@language" : "es",
+    "@value" : "concurso artístico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ArtistsGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "artists group"
+  }, {
+    "@language" : "es",
+    "@value" : "colectivo de artistas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/AssementAssignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "asignación de valoración"
+  }, {
+    "@language" : "en",
+    "@value" : "assement assignment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/PropositionAssignment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/AssistantCurator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "assistant curator"
+  }, {
+    "@language" : "es",
+    "@value" : "ayudante de comisario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Auction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "auction"
+  }, {
+    "@language" : "es",
+    "@value" : "subasta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/AuctionHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Company"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/AudioWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "audio work"
+  }, {
+    "@language" : "es",
+    "@value" : "obra auditiva"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/AudiovisualWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "audiovisual work"
+  }, {
+    "@language" : "es",
+    "@value" : "obra audiovisual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "author"
+  }, {
+    "@language" : "es",
+    "@value" : "autor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/BeginningOfActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "beginning of activity"
+  }, {
+    "@language" : "es",
+    "@value" : "inicio de la acción/actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Biennial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "bienal"
+  }, {
+    "@language" : "en",
+    "@value" : "biennial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Catalogue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "catalogue"
+  }, {
+    "@language" : "es",
+    "@value" : "catálogo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Closing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "clausura"
+  }, {
+    "@language" : "en",
+    "@value" : "closing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/EndOfActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Collaborator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "colaborador"
+  }, {
+    "@language" : "en",
+    "@value" : "collaborator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "comentario"
+  }, {
+    "@language" : "en",
+    "@value" : "comment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/CommentOnBlog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "comentario en blog"
+  }, {
+    "@language" : "en",
+    "@value" : "comment on blog"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LinguisticWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/CommentOnSocialNetwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "comentario en red social"
+  }, {
+    "@language" : "en",
+    "@value" : "comment on social network"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LinguisticWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Communities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "communities"
+  }, {
+    "@language" : "es",
+    "@value" : "comunidades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "company"
+  }, {
+    "@language" : "es",
+    "@value" : "compañía"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "concept"
+  }, {
+    "@language" : "es",
+    "@value" : "concepto, entidad conceptual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@language" : "es",
+    "@value" : "https://www.iflastandards.info/fr/frbr/frbroo#F6"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Conception",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "concepción"
+  }, {
+    "@language" : "en",
+    "@value" : "conception"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ConceptualWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "la formulación puramente intelectual/conceptual de una obra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conceptual work"
+  }, {
+    "@language" : "es",
+    "@value" : "trabajo conceptual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@value" : "https://www.iflastandards.info/fr/frbr/frbroo#F1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Conference",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conference"
+  }, {
+    "@language" : "es",
+    "@value" : "congreso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ConmemorativeEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conmemorative event"
+  }, {
+    "@language" : "es",
+    "@value" : "evento conmemorativo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Coordinator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "coordinador/a"
+  }, {
+    "@language" : "en",
+    "@value" : "coordinator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/CorporateBodyUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "corporate body unit"
+  }, {
+    "@language" : "es",
+    "@value" : "unidad de organización corporativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "creador"
+  }, {
+    "@language" : "en",
+    "@value" : "creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Curation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "curation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Curator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "comisario"
+  }, {
+    "@language" : "en",
+    "@value" : "curator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/CuratorialDiscourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La ideas, argumentos, tesis, etc. desarrolladas específicamente por un proyecto expositivo-curatorial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "curatorial discourse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/CuratorialProposal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "curatorial proposal"
+  }, {
+    "@language" : "es",
+    "@value" : "propuesta de comisariado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/DataBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "base de datos"
+  }, {
+    "@language" : "en",
+    "@value" : "data base"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "date"
+  }, {
+    "@language" : "es",
+    "@value" : "fecha"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeSpan"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Designer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "designer"
+  }, {
+    "@language" : "es",
+    "@value" : "diseñador"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/DigitalObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "digital object"
+  }, {
+    "@language" : "es",
+    "@value" : "objeto digital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/PhysicalObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Disciple",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disciple"
+  }, {
+    "@language" : "es",
+    "@value" : "discípulo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/DisseminationActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "actividad de difusión"
+  }, {
+    "@language" : "en",
+    "@value" : "dissemination activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Documental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documental"
+  }, {
+    "@language" : "es",
+    "@value" : "documental"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Editor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "editor"
+  }, {
+    "@language" : "es",
+    "@value" : "editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/EndOfActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "end of activity"
+  }, {
+    "@language" : "es",
+    "@value" : "fin de la acción/actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Essay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "ensayo"
+  }, {
+    "@language" : "en",
+    "@value" : "essay"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ExactDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exact date"
+  }, {
+    "@language" : "es",
+    "@value" : "fecha exacta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Date"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Exhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exhibition"
+  }, {
+    "@language" : "es",
+    "@value" : "exposición"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent"
+  }, {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ExhibitionCuratorialProject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exhibition curatorial project"
+  }, {
+    "@language" : "es",
+    "@value" : "proyecto de comisariado de la exposición"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ExhibitionIdea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exhibition idea"
+  }, {
+    "@language" : "es",
+    "@value" : "idea de exposición"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ExhibitionMaking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exhibition making"
+  }, {
+    "@language" : "es",
+    "@value" : "realización de la exposición"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "eventos en los que hay exposiciones (display) de objetos y/o producciones artísticas; o en los que se muestran objetos artísticos. La actividad exhibitiva puede ser más o menos prevalente o tener mayor o menor peso en el evento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "eventos exhibitivos"
+  }, {
+    "@language" : "en",
+    "@value" : "exhibitionary event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Exhibitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exhibitor"
+  }, {
+    "@language" : "es",
+    "@value" : "participa como autor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Fair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fair"
+  }, {
+    "@language" : "es",
+    "@value" : "feria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/FamilyWorkshop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "family workshop"
+  }, {
+    "@language" : "es",
+    "@value" : "taller familiar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/FilmProyection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "film proyection"
+  }, {
+    "@language" : "es",
+    "@value" : "proyección de cine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Financier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "financiador"
+  }, {
+    "@language" : "en",
+    "@value" : "financier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Foundation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "foundation"
+  }, {
+    "@language" : "es",
+    "@value" : "fundación"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Gallery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "galería"
+  }, {
+    "@language" : "en",
+    "@value" : "gallery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Company"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/GenerativeWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "generative work"
+  }, {
+    "@language" : "es",
+    "@value" : "obra generativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/GraphicDesigner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "diseñador/a gráfico"
+  }, {
+    "@language" : "en",
+    "@value" : "graphic designer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "group"
+  }, {
+    "@language" : "es",
+    "@value" : "grupo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/GuidedTour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "guided tour"
+  }, {
+    "@language" : "es",
+    "@value" : "visita comentada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/HumanActant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "actante humano"
+  }, {
+    "@language" : "en",
+    "@value" : "human actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ISIC4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ISIC4 category"
+  }, {
+    "@language" : "es",
+    "@value" : "categoría ISIC4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Illustrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "illustrator"
+  }, {
+    "@language" : "es",
+    "@value" : "ilustrador"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/InformationObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "information object"
+  }, {
+    "@language" : "es",
+    "@value" : "objeto de información"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/InmersiveExperience",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "experiencia inmersiva"
+  }, {
+    "@language" : "en",
+    "@value" : "inmersive experience"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/VirtualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "institución"
+  }, {
+    "@language" : "en",
+    "@value" : "institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Instructor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "instructor"
+  }, {
+    "@language" : "es",
+    "@value" : "instructor/a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Interpretation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "interpretación"
+  }, {
+    "@language" : "en",
+    "@value" : "interpretation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/InterpretationAssignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "asignación de interpretación"
+  }, {
+    "@language" : "en",
+    "@value" : "interpretation assignment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/PropositionAssignment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/JournalisticCritique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "crítica periodística"
+  }, {
+    "@language" : "en",
+    "@value" : "journalistic critique"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LinguisticWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Lender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "lender"
+  }, {
+    "@language" : "es",
+    "@value" : "prestador"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/LinguisticWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "linguistic work"
+  }, {
+    "@language" : "es",
+    "@value" : "obra lingüística"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/LiteraryEssays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "ensayo literario"
+  }, {
+    "@language" : "en",
+    "@value" : "literary essay"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LinguisticWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/LiteraryWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "literary work"
+  }, {
+    "@language" : "es",
+    "@value" : "obra literaria"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Manifestation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "manifestación"
+  }, {
+    "@language" : "en",
+    "@value" : "manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://iflastandards.info/ns/fr/frbr/frbroo/F4_Manifestation_Singleton"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/MaterialObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "material object"
+  }, {
+    "@language" : "es",
+    "@value" : "objeto material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Meeting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "encuentro"
+  }, {
+    "@language" : "en",
+    "@value" : "meeting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Member",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "member"
+  }, {
+    "@language" : "es",
+    "@value" : "miembro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Museographer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "museographer"
+  }, {
+    "@language" : "es",
+    "@value" : "museógrafo/a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/MusicEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "evento musical"
+  }, {
+    "@language" : "en",
+    "@value" : "music event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "las partes discursivas y/o narrativas en las que se articula una obra intelectual. Se trata de una segmentación explícita que puede desarrollar una o más proposiciones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "narrative/discursive unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/NarrativeStructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "estructura narrativa"
+  }, {
+    "@language" : "en",
+    "@value" : "narrative structure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/OrganizationSchema"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/NarrativeThematicUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "narrative thematic unit"
+  }, {
+    "@language" : "es",
+    "@value" : "unidad temática narrativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/OrganizationSchema"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/NaturalPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "lugar natural"
+  }, {
+    "@language" : "en",
+    "@value" : "natural place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/PhysicalPlace"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/NonHumanActor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "actor no humano"
+  }, {
+    "@language" : "en",
+    "@value" : "non-human actor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "cosa"
+  }, {
+    "@language" : "en",
+    "@value" : "object"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E70_Thing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/OpenDay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "jornada de puertas abiertas"
+  }, {
+    "@language" : "en",
+    "@value" : "open day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/DisseminationActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Opening",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "inauguración"
+  }, {
+    "@language" : "en",
+    "@value" : "opening"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/BeginningOfActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/OrganizationSchema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "esquema de organización"
+  }, {
+    "@language" : "en",
+    "@value" : "organization schema"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Organizer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "organizador"
+  }, {
+    "@language" : "en",
+    "@value" : "organizer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Owner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "owner"
+  }, {
+    "@language" : "es",
+    "@value" : "propietario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Participant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "participant"
+  }, {
+    "@language" : "es",
+    "@value" : "participante"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/PerfomativeWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "obra perfomativa"
+  }, {
+    "@language" : "en",
+    "@value" : "perfomative work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "person"
+  }, {
+    "@language" : "es",
+    "@value" : "persona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/PhysicalObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "objeto físico"
+  }, {
+    "@language" : "en",
+    "@value" : "physical object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E19_Physical_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/PhysicalPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "lugar físico"
+  }, {
+    "@language" : "en",
+    "@value" : "physical place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Podcast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "podcast"
+  }, {
+    "@language" : "es",
+    "@value" : "pódcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/AudioWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/PressEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "press event"
+  }, {
+    "@language" : "es",
+    "@value" : "rueda de prensa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/DisseminationActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "lugar hecho por el hombre"
+  }, {
+    "@language" : "en",
+    "@value" : "produced physical place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/PhysicalPlace"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ProjectDirector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "director/a de proyecto"
+  }, {
+    "@language" : "en",
+    "@value" : "project director"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Proposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "ideas, argumentos, relatos, tesis, valoraciones, interpretaciones… contenido semántico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "proposición"
+  }, {
+    "@language" : "en",
+    "@value" : "proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/PropositionAssignment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "asignación de propuesta"
+  }, {
+    "@language" : "en",
+    "@value" : "proposition assignment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Public",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "public"
+  }, {
+    "@language" : "es",
+    "@value" : "público"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Publication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "publicación"
+  }, {
+    "@language" : "en",
+    "@value" : "publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://www.iflastandards.info/fr/frbr/frbroo#F30"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "editor"
+  }, {
+    "@language" : "en",
+    "@value" : "publisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Representative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "representante"
+  }, {
+    "@language" : "en",
+    "@value" : "representative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ResearchAssistant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "ayudante de investigación"
+  }, {
+    "@language" : "en",
+    "@value" : "research assistant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Residence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "residence"
+  }, {
+    "@language" : "es",
+    "@value" : "residencia"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "crítica"
+  }, {
+    "@language" : "en",
+    "@value" : "review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "rol"
+  }, {
+    "@language" : "en",
+    "@value" : "role"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ScholarlyCritiqueWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "scholarly-critique work"
+  }, {
+    "@language" : "es",
+    "@value" : "trabajo académico-crítico"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "actividad educativa académica"
+  }, {
+    "@language" : "en",
+    "@value" : "scholarly-educational activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/SchollaryCritiqueWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "schollary critique work"
+  }, {
+    "@language" : "es",
+    "@value" : "trabajo de crítica escolar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Seminar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "seminar"
+  }, {
+    "@language" : "es",
+    "@value" : "seminario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/SocialContentGeneration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "generación de contenidos sociales"
+  }, {
+    "@language" : "en",
+    "@value" : "social content generation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/SocialGeneratedProposition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "propuesta social generada"
+  }, {
+    "@language" : "en",
+    "@value" : "social generated proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/SocialReaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "reacción social"
+  }, {
+    "@language" : "en",
+    "@value" : "social reaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Action"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/SpatialUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "unidades espaciales que pertenecen o forman parte de otros espacios mayores. Por ejemplo, la Sala Noble es una unidad espacial que pertenece al Palacio de Villalón, sede de la institución Museo Carmen Thyssen Málaga."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "spatial unit"
+  }, {
+    "@language" : "es",
+    "@value" : "unidad espacial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Supporter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "patrocinador"
+  }, {
+    "@language" : "en",
+    "@value" : "supporter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/TechnoNonHumanActant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "techno non-human actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/TechnoPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "lugar definido por su naturaleza tecnológica, digital y/o computacional"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "techno place"
+  }, {
+    "@language" : "es",
+    "@value" : "tecno-lugar/lugar digital y/o computacional"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/TerritorialEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "entidad territorial"
+  }, {
+    "@language" : "en",
+    "@value" : "territorial entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/PhysicalPlace"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Theme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tema"
+  }, {
+    "@language" : "en",
+    "@value" : "theme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/ThemeSubjectTopic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tema, materia, tópico"
+  }, {
+    "@language" : "en",
+    "@value" : "theme/subject/topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Thesis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thesis"
+  }, {
+    "@language" : "es",
+    "@value" : "tésis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/TimeRange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "rango temporal"
+  }, {
+    "@language" : "en",
+    "@value" : "time range"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeSpan"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/TimeSpan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "periodo de tiempo"
+  }, {
+    "@language" : "en",
+    "@value" : "time-span"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E52_Time-Span"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Tour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tour"
+  }, {
+    "@language" : "es",
+    "@value" : "tour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Tour360",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "recorrido 360"
+  }, {
+    "@language" : "en",
+    "@value" : "tour360"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/VirtualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Triennial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "trienal"
+  }, {
+    "@language" : "en",
+    "@value" : "triennial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Vernissage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/BeginningOfActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/VirtualWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "obra virtual"
+  }, {
+    "@language" : "en",
+    "@value" : "virtual work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Visitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "visitante"
+  }, {
+    "@language" : "en",
+    "@value" : "visitor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/VisualOrganizationSchema",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "esquema de organización visual"
+  }, {
+    "@language" : "en",
+    "@value" : "visual organization schema"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/OrganizationSchema"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/VisualWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "obra visual"
+  }, {
+    "@language" : "en",
+    "@value" : "visual work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/WorkManifestation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "manifestación de obra"
+  }, {
+    "@language" : "en",
+    "@value" : "work manifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Manifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/Workshop",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "taller"
+  }, {
+    "@language" : "en",
+    "@value" : "workshop"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ScholarlyEducationalActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/access",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "access"
+  }, {
+    "@language" : "es",
+    "@value" : "tipo de acceso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "actividad"
+  }, {
+    "@language" : "en",
+    "@value" : "activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "address"
+  }, {
+    "@language" : "es",
+    "@value" : "dirección"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/appellative",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid212"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "apelativo"
+  }, {
+    "@language" : "en",
+    "@value" : "appellative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/broughtIntoAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/BeginningOfActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brought into action"
+  }, {
+    "@language" : "es",
+    "@value" : "dio inicio a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoAction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/broughtIntoEndOfAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/EndOfActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brought into end of action"
+  }, {
+    "@language" : "es",
+    "@value" : "dio fin a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoEndOfAction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/broughtIntoEndOfExistence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brought into end of existence"
+  }, {
+    "@language" : "es",
+    "@value" : "llevó a su fin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoEndOfExistence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/broughtIntoExistence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brought into existence"
+  }, {
+    "@language" : "es",
+    "@value" : "trajo a la existencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoExistence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/broughtIntoLife",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "brought into life"
+  }, {
+    "@language" : "es",
+    "@value" : "fue el nacimiento de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasBorn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/carriedOut",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carried out"
+  }, {
+    "@language" : "es",
+    "@value" : "llevó a cabo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Action"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasCarriedOutBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/carries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "carries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isCarriedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/closed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Closing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "clausuró"
+  }, {
+    "@language" : "en",
+    "@value" : "closed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasClosedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/collaboratedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "colaboró con"
+  }, {
+    "@language" : "en",
+    "@value" : "collaborated with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/comprises",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "comprende"
+  }, {
+    "@language" : "en",
+    "@value" : "comprises"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isCompisedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/conceived",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Conception"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conceived"
+  }, {
+    "@language" : "es",
+    "@value" : "concibió"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasConceived"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/coordinates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid216"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "coordenadas geográficas"
+  }, {
+    "@language" : "en",
+    "@value" : "coordinates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/corporateBodyIsPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es parte de"
+  }, {
+    "@language" : "en",
+    "@value" : "is part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheEntityMatrixOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "created"
+  }, {
+    "@language" : "es",
+    "@value" : "creó"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid10"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasCreated"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "descripción"
+  }, {
+    "@language" : "en",
+    "@value" : "description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/destroyed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "destroyed"
+  }, {
+    "@language" : "es",
+    "@value" : "destruyó"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasDestroyed"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/develops",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "desarrolla"
+  }, {
+    "@language" : "en",
+    "@value" : "develops"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isDevelopedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/diedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "died in"
+  }, {
+    "@language" : "es",
+    "@value" : "falleció"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasDeathOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/dissolved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "disolvió"
+  }, {
+    "@language" : "en",
+    "@value" : "dissolved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasDissolved"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/documents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "documenta"
+  }, {
+    "@language" : "en",
+    "@value" : "documents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isDocumentedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/expands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "amplia"
+  }, {
+    "@language" : "en",
+    "@value" : "expands"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid24"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isExpandedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/featured",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "expuso a"
+  }, {
+    "@language" : "en",
+    "@value" : "featured"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasFeaturedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/found",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Foundation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "found"
+  }, {
+    "@language" : "es",
+    "@value" : "fundó"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid30"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasFounded"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/gender",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gender"
+  }, {
+    "@language" : "es",
+    "@value" : "género"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/groupIsPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es parte de"
+  }, {
+    "@language" : "en",
+    "@value" : "is part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheMatrixGroupOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasAffiliates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has affiliates"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene afiliados"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Affiliate"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheAffiliationTo"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasAlmaMater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has alma mater"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene alma mater"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/AlmaMater"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isAlmaMaterOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasAssigned",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has assigned"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene asignado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid38"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isAssignedTo"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasAssociated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has associated"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene asociado a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isAssociatedTo"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasAssociatedActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has associated activity"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene asociada la actividad"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheAssociatedActivityOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid42"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has as author"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como autor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Author"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheAuthorOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has as a concept"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como concepto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isConceptOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasCorporateBodyUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has corporate body unit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/CorporateBodyUnit"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isCorporateBodyUnitOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasCreator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid47"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "creador"
+  }, {
+    "@language" : "en",
+    "@value" : "has creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Creator"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isCreatorOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasCuratorialDiscourse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has curatorial discourse"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene discurso comisarial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/CuratorialDiscourse"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheCuratorialDiscourseOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasEditor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Catalogue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has editor"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Editor"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheEditorOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasEndingDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeRange"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has ending date"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como fecha de fin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Date"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheEndingDateOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasFinancer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has financer"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como financiador"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Financier"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheFinancerOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasHeadquarter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid56"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has headquarter"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene su sede en"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheHeadquarterOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasInformationObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has information object"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como objeto de información"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheInformationObjectOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasInformationSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has information source"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como fuente de información"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid59"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isInformationSourceOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasItinerantExhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has itinerant exhibition"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como exposicion itinerante a"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isItinerantWith"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasNarrativeDiscursiveUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has narrative/discursive unit"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como unidad narrativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheNarrativeDiscurseUnitOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasNarrativeStructure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has narrative structure"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como estructura narrativa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/NarrativeStructure"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isNarrativeStructureOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid62"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has owner"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como propietario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Owner"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheOwnerOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasPlaceOfActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "desarrolla su actividad en"
+  }, {
+    "@language" : "en",
+    "@value" : "has place of activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isThePlaceOfActivityOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasProviderOfInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "has provider of information"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como proveedor de información a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/providesInformationOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasPublication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has publication"
+  }, {
+    "@language" : "es",
+    "@value" : "se publica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Publication"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isPublicationOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasResidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid70"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has residence"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene residencia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Residence"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheResidenceOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has as role"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene el rol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheRolePlayedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasSocialPublication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has social publication"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como publicación social"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheSocialPublicationOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasSpatialUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has spatial unit"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene unidad espacial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/SpatialUnit"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isPartOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasStartingDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeRange"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has starting date"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como fecha de inicio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Date"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheStartingDateOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid73"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has subject"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como tema/topic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ThemeSubjectTopic"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheSubjectOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasSupraterritorialEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TerritorialEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has supraterritorial entity"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene como entidad supraterritorial a"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TerritorialEntity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheSupraterritorialEntityOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/hasVenue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid76"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has venue"
+  }, {
+    "@language" : "es",
+    "@value" : "tiene sede"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheVenueOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "entidades puramente intelectuales y/o conceptuales, sin materialización concreta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "conceptual object"
+  }, {
+    "@language" : "es",
+    "@value" : "objeto conceptual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "identificador"
+  }, {
+    "@language" : "en",
+    "@value" : "identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/involves",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "implica"
+  }, {
+    "@language" : "en",
+    "@value" : "involves"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isInvolvedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isAlmaMaterOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/AlmaMater"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es alma mater de"
+  }, {
+    "@language" : "en",
+    "@value" : "is alma mater of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isAssignedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid80"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está asignado a"
+  }, {
+    "@language" : "en",
+    "@value" : "is assigned to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid84"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isAssociatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está asociado a"
+  }, {
+    "@language" : "en",
+    "@value" : "is associated to"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isCarriedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is carried by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid89"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isCompisedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está compuesto por"
+  }, {
+    "@language" : "en",
+    "@value" : "is comprised in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isConceptOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es concepto de"
+  }, {
+    "@language" : "en",
+    "@value" : "is concept of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isCorporateBodyUnitOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/CorporateBodyUnit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la unidad de organización corporativa de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the corporate body unit of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isCreatorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Creator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el creador de"
+  }, {
+    "@language" : "en",
+    "@value" : "is creator of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid92"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isDevelopedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es propuesto por"
+  }, {
+    "@language" : "en",
+    "@value" : "is proposed by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid96"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isDiscipleOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Disciple"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es discípulo de"
+  }, {
+    "@language" : "en",
+    "@value" : "is disciple of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheMasterOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isDocumentedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está descrita en"
+  }, {
+    "@language" : "en",
+    "@value" : "is documented in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isExpandedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid99"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es ampliado por"
+  }, {
+    "@language" : "en",
+    "@value" : "is expanded by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isFatherOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el padre de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the father of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isInformationSourceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid102"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es fuente de información de"
+  }, {
+    "@language" : "en",
+    "@value" : "is informationSource of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isInvolvedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está involucrado en"
+  }, {
+    "@language" : "en",
+    "@value" : "is involved in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Proposition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isItinerantWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es itinerante con"
+  }, {
+    "@language" : "en",
+    "@value" : "is itinerant with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isLocatedAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid105"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está situado en"
+  }, {
+    "@language" : "en",
+    "@value" : "is located at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheLocationOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isMaterializedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is materialized in"
+  }, {
+    "@language" : "es",
+    "@value" : "se materializa en"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/materializes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es miembro de"
+  }, {
+    "@language" : "en",
+    "@value" : "is member of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/isTheGroupOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isMentionedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid109"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es mencionado en"
+  }, {
+    "@language" : "en",
+    "@value" : "is mentioned in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid112"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/mentionsTo"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isNarrativeStructureOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/NarrativeStructure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la estructura narrativa de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the structure narrative of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/SpatialUnit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es parte de"
+  }, {
+    "@language" : "en",
+    "@value" : "is part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isPublicationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la publicación de"
+  }, {
+    "@language" : "en",
+    "@value" : "is publication of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isRepresentedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Gallery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es representado por"
+  }, {
+    "@language" : "en",
+    "@value" : "is represented by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Representative"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/representsTo"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheAffiliationTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Affiliate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "está afiliado a"
+  }, {
+    "@language" : "en",
+    "@value" : "is the affiliation to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheAssociatedActivityOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la actividad asociada a"
+  }, {
+    "@language" : "en",
+    "@value" : "is the associated activity of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheAuthorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es autor de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the author of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid115"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheCuratorialDiscourseOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/CuratorialDiscourse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el discurso comisarial de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the curatorial discourse of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/LiteraryWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheDaughterOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la hija de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the daughter of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheEditorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Editor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es editor de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the editor of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Catalogue"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheEndingDateOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la fecha de fin de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the ending date of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeRange"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheEntityMatrixOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la entidad matriz de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the entity matrix of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheFinancerOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Financier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es financiador de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the financer of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid120"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheGroupOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el grupo de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the group of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Member"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheHeadquarterOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ProducedPhysicalPlace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la sede de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the headquarter of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid125"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheInformationObjectOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/InformationObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el objeto de información de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the information object of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheLocationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el ubicación de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the location of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid128"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheMasterOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/HumanActant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el maestro de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the master of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Disciple"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheMatrixGroupOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "is the matrix group of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Group"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheMotherOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la madre de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the mother of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheNarrativeDiscurseUnitOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/NarrativeDiscursiveUnit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la unidad narrativa de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the narrative/discurse unit of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ConceptualWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheOwnerOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Owner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es propietario de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the owner of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid132"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isThePlaceOfActivityOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el lugar de actividad de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the place of activity of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheResidenceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Residence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la residencia de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the residence of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid136"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheRolePlayedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el rol desempeñado por"
+  }, {
+    "@language" : "en",
+    "@value" : "is the role played by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheSocialPublicationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la publicación social de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the social publication of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheSonOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el hijo de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the son of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheStartingDateOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la fecha de inicio de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the starting date of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeRange"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheSubjectOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ThemeSubjectTopic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es tema/topic de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the subject of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid139"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheSupraterritorialEntityOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TerritorialEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la entidad supraterritorial de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the supraterritorial entity of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TerritorialEntity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTheVenueOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la sede de"
+  }, {
+    "@language" : "en",
+    "@value" : "is the venue of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid142"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTimeSpanOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeSpan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es el rango temporal de"
+  }, {
+    "@language" : "en",
+    "@value" : "is time-span of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid146"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/tookPlaceIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/isTraded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es intercambiado por"
+  }, {
+    "@language" : "en",
+    "@value" : "is traded by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Gallery"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/trades"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/materializes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid150"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "es la materialización de"
+  }, {
+    "@language" : "en",
+    "@value" : "materializes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/mentionsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid153"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "menciona a"
+  }, {
+    "@language" : "en",
+    "@value" : "mentions to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid156"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid219"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  }, {
+    "@language" : "es",
+    "@value" : "nombre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/nationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "nacionalidad"
+  }, {
+    "@language" : "en",
+    "@value" : "nationality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/numberOfAttendants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of attendants"
+  }, {
+    "@language" : "es",
+    "@value" : "número de asistentes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/numberOfInhabitants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TerritorialEntity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "nº de habitantes"
+  }, {
+    "@language" : "en",
+    "@value" : "nº of inhabitants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/numberOfUsers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TechnoPlace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "n.º de usuarios"
+  }, {
+    "@language" : "en",
+    "@value" : "n.º of users"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/opened",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Opening"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "inauguró"
+  }, {
+    "@language" : "en",
+    "@value" : "opened"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasOpenedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/priceFee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "precio"
+  }, {
+    "@language" : "en",
+    "@value" : "price/fee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/produced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "produced"
+  }, {
+    "@language" : "es",
+    "@value" : "produjo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid159"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasProduced"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/program",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "program"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/providesInformationOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "proporciona información de"
+  }, {
+    "@language" : "en",
+    "@value" : "provides information of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid167"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/publish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "publicó"
+  }, {
+    "@language" : "en",
+    "@value" : "publish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasPublishedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/representsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Representative"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "representa a"
+  }, {
+    "@language" : "en",
+    "@value" : "represents to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Gallery"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/socialNetworkProfiles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "perfil en red social"
+  }, {
+    "@language" : "en",
+    "@value" : "social network profiles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/tookPlaceAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid171"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "took place at"
+  }, {
+    "@language" : "es",
+    "@value" : "tuvo lugar en"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/wasThePlaceOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/tookPlaceIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid174"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "took place in"
+  }, {
+    "@language" : "es",
+    "@value" : "tuvo lugar en"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/TimeSpan"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/trades",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Gallery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "intercambia"
+  }, {
+    "@language" : "en",
+    "@value" : "trades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/WorkManifestation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid223"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tipo"
+  }, {
+    "@language" : "en",
+    "@value" : "type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/typeOfExhibition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tipo de exposición"
+  }, {
+    "@language" : "en",
+    "@value" : "type of exhibition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/typeOfInstitution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tipo de institución"
+  }, {
+    "@language" : "en",
+    "@value" : "type of institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/typeOfSocialContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/SocialContentGeneration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tipo de contenido social"
+  }, {
+    "@language" : "en",
+    "@value" : "type of social content"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasBorn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "nació"
+  }, {
+    "@language" : "en",
+    "@value" : "was born"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue iniciada en"
+  }, {
+    "@language" : "en",
+    "@value" : "was brought into action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/BeginningOfActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoEndOfAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue finalizada en"
+  }, {
+    "@language" : "en",
+    "@value" : "was brought into end of action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/EndOfActivity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoEndOfExistence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid178"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "llegó al final de su existencia"
+  }, {
+    "@language" : "en",
+    "@value" : "was brought into end of existence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasBroughtIntoExistence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid181"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue traído a la existencia"
+  }, {
+    "@language" : "en",
+    "@value" : "was brought into existence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasCarriedOutBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue llevada a cabo por"
+  }, {
+    "@language" : "en",
+    "@value" : "was carried out by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Role"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasClosedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue clausurada por"
+  }, {
+    "@language" : "en",
+    "@value" : "was closed by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Closing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasConceived",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/http://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue concebido"
+  }, {
+    "@language" : "en",
+    "@value" : "was conceived"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Conception"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasCreated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid184"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue creado"
+  }, {
+    "@language" : "en",
+    "@value" : "was created"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasDeathOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue el fallecimiento de"
+  }, {
+    "@language" : "en",
+    "@value" : "was death of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasDestroyed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid188"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue destruido"
+  }, {
+    "@language" : "en",
+    "@value" : "was destroyed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasDissolved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid192"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue disuelto"
+  }, {
+    "@language" : "en",
+    "@value" : "was dissolved"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasFeaturedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid195"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue expuesto en"
+  }, {
+    "@language" : "en",
+    "@value" : "was featured in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/ExhibitionaryEvent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasFounded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid198"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue fundado"
+  }, {
+    "@language" : "en",
+    "@value" : "was founded"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Foundation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasOpenedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue inaugurada por"
+  }, {
+    "@language" : "en",
+    "@value" : "was opened by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Opening"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasProduced",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid201"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue producido"
+  }, {
+    "@language" : "en",
+    "@value" : "was produced"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasPublishedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/MaterialObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue publicada por"
+  }, {
+    "@language" : "en",
+    "@value" : "was published by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Publication"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/wasThePlaceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://cidoc-crm.org/cidoc-crm/7.1.1/E53_Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "fue el lugar de"
+  }, {
+    "@language" : "en",
+    "@value" : "was the place of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid209"
+  } ]
+}, {
+  "@id" : "https://w3id.org/OntoExhibit/webPage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid227"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "página web"
+  }, {
+    "@language" : "en",
+    "@value" : "web page"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "son organizaciones “humanas” pero con estructuras más complejas que no pueden reducirse a lo puramente humano"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "corporate body"
+  }, {
+    "@language" : "es",
+    "@value" : "organismos corporativos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/OntoExhibit/Actant"
+  } ]
+} ]
