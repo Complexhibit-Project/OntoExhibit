@@ -11,3 +11,4 @@ Contact:
 - Nuria Rodríguez Ortega <nro@uma.es>
 - María del Mar Roldán García <mrgarcia@uma.es> (https://github.com/mmroldan)
 - Martín Jerónimo Salvachúa <martinjs@uma.es> (https://github.com/MartinM10)
+- María Luisa Díez Platas <marialuisa.diez@unir.net>
