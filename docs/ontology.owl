@@ -13,6 +13,7 @@
         <terms:created>2022-11</terms:created>
         <terms:creator>Maria del Mar Roldán García</terms:creator>
         <terms:creator>Martín Jerónimo Salvachúa</terms:creator>
+        <terms:creator>María Luisa Díez Platas</terms:creator>
         <terms:creator>Nuria Rodriguez Ortega</terms:creator>
         <terms:description>OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information.</terms:description>
         <terms:rights>https://opensource.org/licenses/MIT</terms:rights>
@@ -2424,6 +2425,48 @@
     
 
 
+    <!-- https://w3id.org/OntoExhibit/hasEndingDate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasEndingDate">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheEndingDateOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/hasStartingDate -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/hasStartingDate">
+        <owl:inverseOf rdf:resource="https://w3id.org/OntoExhibit/isTheStartingDateOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheEndingDateOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheEndingDateOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit/isTheStartingDateOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/OntoExhibit/isTheStartingDateOf">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Date"/>
+        <rdfs:range rdf:resource="https://w3id.org/OntoExhibit/TimeRange"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2436,11 +2479,46 @@
     
 
 
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/PhysicalSite"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/PhysicalSite"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/TerritorialEntity"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://w3id.org/OntoExhibit#ISIC4Category -->
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#ISIC4Category">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Company"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Categoría ISIC4</rdfs:label>
+        <rdfs:label xml:lang="en">ISIC4Category</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2450,6 +2528,25 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#access">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>free</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>paid</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">access</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de acceso</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2459,6 +2556,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#activity">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">actividad</rdfs:label>
+        <rdfs:label xml:lang="en">activity</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2467,7 +2567,17 @@
 
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#apelation">
-        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/HumanActant"/>
+                    <rdf:Description rdf:about="https://w3id.org/OntoExhibit/Institution"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">apelation</rdfs:label>
+        <rdfs:label xml:lang="es">nombre alternativo</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2477,6 +2587,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#budget">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">budget</rdfs:label>
+        <rdfs:label xml:lang="es">presupuesto</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2486,6 +2599,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#degree">
         <rdfs:domain rdf:resource="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">degree</rdfs:label>
+        <rdfs:label xml:lang="es">titulación</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2495,6 +2611,8 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#description">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:label xml:lang="es">descripción</rdfs:label>
+        <rdfs:label xml:lang="en">description</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2504,6 +2622,41 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#gender">
         <rdfs:domain rdf:resource="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">gender</rdfs:label>
+        <rdfs:label xml:lang="es">género</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/OntoExhibit#hasOwnership -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#hasOwnership">
+        <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Institution"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>mixed</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>private</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>public</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
     </owl:DatatypeProperty>
     
 
@@ -2513,6 +2666,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#identifier">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">identificador</rdfs:label>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2522,6 +2678,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#name">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Actant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2531,6 +2690,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#numberOfAttendants">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">number of attendants</rdfs:label>
+        <rdfs:label xml:lang="es">número de asistentes</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2540,6 +2702,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#price">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:label xml:lang="es">precio</rdfs:label>
+        <rdfs:label xml:lang="en">price</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2549,6 +2714,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#professionalActivity">
         <rdfs:domain rdf:resource="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">actividad profesional</rdfs:label>
+        <rdfs:label xml:lang="en">professional activity</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2558,6 +2726,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#program">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">program</rdfs:label>
+        <rdfs:label xml:lang="es">programa</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2567,6 +2738,9 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/OntoExhibit#socialNetworkProfile">
         <rdfs:domain rdf:resource="https://w3id.org/OntoExhibit/HumanActant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="es">perfil en red social</rdfs:label>
+        <rdfs:label xml:lang="en">social network profile</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2583,6 +2757,9 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:label xml:lang="es">página web</rdfs:label>
+        <rdfs:label xml:lang="en">web page</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -2723,7 +2900,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/OntoExhibit#tookPlaceAt"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/OntoExhibit/PhysicalSite"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/OntoExhibit/TerritorialEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">death</rdfs:label>

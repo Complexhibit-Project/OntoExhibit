@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/OntoExhibit/","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/OntoExhibit/","name":"OntoExhibit", "headline":"OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information.", "datePublished":"2022-11", "version":"1.0.0", "author":[{"@type":"Person","name":"Maria del Mar Roldán García"},{"@type":"Person","name":"Martín Jerónimo Salvachúa"},{"@type":"Person","name":"Nuria Rodriguez Ortega"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/OntoExhibit/","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/OntoExhibit/","name":"OntoExhibit", "headline":"OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information.", "datePublished":"2022-11", "version":"1.0.0", "author":[{"@type":"Person","name":"Maria del Mar Roldán García"},{"@type":"Person","name":"Martín Jerónimo Salvachúa"},{"@type":"Person","name":"María Luisa Díez Platas"},{"@type":"Person","name":"Nuria Rodriguez Ortega"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -66,12 +66,12 @@ $(function(){
 <dt>Revision:</dt>
 <dd>1.0.0</dd>
 <dt>Authors:</dt>
-<dd>Maria del Mar Roldán García</dd><dd>Martín Jerónimo Salvachúa</dd><dd>Nuria Rodriguez Ortega</dd>
+<dd>Maria del Mar Roldán García</dd><dd>Martín Jerónimo Salvachúa</dd><dd>María Luisa Díez Platas</dd><dd>Nuria Rodriguez Ortega</dd>
 
 <dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
-<!-- <dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --><dt>Cite as:</dt>
-<dd>Maria del Mar Roldán García, Martín Jerónimo Salvachúa, Nuria Rodriguez Ortega. OntoExhibit. Revision: 1.0.0. Retrieved from: https://w3id.org/OntoExhibit/1.0.0</dd>
+<dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd><dt>Cite as:</dt>
+<dd>Maria del Mar Roldán García, Martín Jerónimo Salvachúa, María Luisa Díez Platas, Nuria Rodriguez Ortega. OntoExhibit. Revision: 1.0.0. Retrieved from: https://w3id.org/OntoExhibit/1.0.0</dd>
 </dl>
 
 <hr/>
@@ -104,6 +104,7 @@ This is a place holder text for the introduction. The introduction should briefl
 <tr><td><b>xsd</b></td><td>&lt;http://www.w3.org/2001/XMLSchema&gt;</td></tr>
 <tr><td><b>dcterms</b></td><td>&lt;http://purl.org/dc/terms&gt;</td></tr>
 <tr><td><b>rdfs</b></td><td>&lt;http://www.w3.org/2000/01/rdf-schema&gt;</td></tr>
+<tr><td><b>wgs84_pos</b></td><td>&lt;http://www.w3.org/2003/01/geo/wgs84_pos&gt;</td></tr>
 <tr><td><b>vann</b></td><td>&lt;http://purl.org/vocab/vann&gt;</td></tr>
 <tr><td><b>frbroo</b></td><td>&lt;https://www.iflastandards.info/fr/frbr/frbroo&gt;</td></tr>
 </tbody>
@@ -1066,6 +1067,11 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
+      <a href="#hasEndingDate" title="https://w3id.org/OntoExhibit/hasEndingDate">
+         <span>has ending date</span>
+      </a>
+   </li>
+   <li>
       <a href="#https://w3id.org/OntoExhibit#hasExhibitionMaking" title="https://w3id.org/OntoExhibit#hasExhibitionMaking">
          <span>has exhibition making</span>
       </a>
@@ -1179,6 +1185,11 @@ This ontology has the following classes and properties.</span>
       <a href="#https://w3id.org/OntoExhibit#hasSourceOfInformation"
          title="https://w3id.org/OntoExhibit#hasSourceOfInformation">
          <span>has source of information</span>
+      </a>
+   </li>
+   <li>
+      <a href="#hasStartingDate" title="https://w3id.org/OntoExhibit/hasStartingDate">
+         <span>has starting date</span>
       </a>
    </li>
    <li>
@@ -1406,6 +1417,11 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
+      <a href="#isTheEndingDateOf" title="https://w3id.org/OntoExhibit/isTheEndingDateOf">
+         <span>is the ending date of</span>
+      </a>
+   </li>
+   <li>
       <a href="#https://w3id.org/OntoExhibit#isTheEntityMatrixOf"
          title="https://w3id.org/OntoExhibit#isTheEntityMatrixOf">
          <span>is the entity matrix of</span>
@@ -1522,6 +1538,12 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#https://w3id.org/OntoExhibit#isTheSonOf" title="https://w3id.org/OntoExhibit#isTheSonOf">
          <span>is the son of</span>
+      </a>
+   </li>
+   <li>
+      <a href="#isTheStartingDateOf"
+         title="https://w3id.org/OntoExhibit/isTheStartingDateOf">
+         <span>is the starting date of</span>
       </a>
    </li>
    <li>
@@ -1863,145 +1885,69 @@ This ontology has the following classes and properties.</span>
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     class="hlist">
    <li>
-      <a href="#https://w3id.org/OntoExhibit#access" title="https://w3id.org/OntoExhibit#access">
-         <span>access</span>
+      <a href="#https://w3id.org/OntoExhibit#access" title="https://w3id.org/OntoExhibit#access">access</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#activity" title="https://w3id.org/OntoExhibit#activity">activity</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#apelation" title="https://w3id.org/OntoExhibit#apelation">apelation</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#budget" title="https://w3id.org/OntoExhibit#budget">budget</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#degree" title="https://w3id.org/OntoExhibit#degree">degree</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#description" title="https://w3id.org/OntoExhibit#description">description</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#gender" title="https://w3id.org/OntoExhibit#gender">gender</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#hasOwnership" title="https://w3id.org/OntoExhibit#hasOwnership">
+         <span>has ownership</span>
       </a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#activity" title="https://w3id.org/OntoExhibit#activity">
-         <span>activity</span>
+      <a href="#https://w3id.org/OntoExhibit#identifier" title="https://w3id.org/OntoExhibit#identifier">identifier</a>
+   </li>
+   <li>
+      <a href="#https://w3id.org/OntoExhibit#ISIC4Category" title="https://w3id.org/OntoExhibit#ISIC4Category">ISIC4Category</a>
+   </li>
+   <li>
+      <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#lat" title="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+         <span>lat</span>
       </a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#apelation" title="https://w3id.org/OntoExhibit#apelation">
-         <span>apelation</span>
+      <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#long" title="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+         <span>long</span>
       </a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#budget" title="https://w3id.org/OntoExhibit#budget">
-         <span>budget</span>
-      </a>
+      <a href="#https://w3id.org/OntoExhibit#name" title="https://w3id.org/OntoExhibit#name">name</a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#degree" title="https://w3id.org/OntoExhibit#degree">
-         <span>degree</span>
-      </a>
+      <a href="#https://w3id.org/OntoExhibit#numberOfAttendants" title="https://w3id.org/OntoExhibit#numberOfAttendants">number of attendants</a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#description" title="https://w3id.org/OntoExhibit#description">
-         <span>description</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/OntoExhibit#gender" title="https://w3id.org/OntoExhibit#gender">
-         <span>gender</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/OntoExhibit#ISIC4Category" title="https://w3id.org/OntoExhibit#ISIC4Category">
-         <span>i s i c4 category</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/OntoExhibit#identifier" title="https://w3id.org/OntoExhibit#identifier">
-         <span>identifier</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/OntoExhibit#name" title="https://w3id.org/OntoExhibit#name">
-         <span>name</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/OntoExhibit#numberOfAttendants" title="https://w3id.org/OntoExhibit#numberOfAttendants">
-         <span>number of attendants</span>
-      </a>
-   </li>
-   <li>
-      <a href="#https://w3id.org/OntoExhibit#price" title="https://w3id.org/OntoExhibit#price">
-         <span>price</span>
-      </a>
+      <a href="#https://w3id.org/OntoExhibit#price" title="https://w3id.org/OntoExhibit#price">price</a>
    </li>
    <li>
       <a href="#https://w3id.org/OntoExhibit#professionalActivity"
-         title="https://w3id.org/OntoExhibit#professionalActivity">
-         <span>professional activity</span>
-      </a>
+         title="https://w3id.org/OntoExhibit#professionalActivity">professional activity</a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#program" title="https://w3id.org/OntoExhibit#program">
-         <span>program</span>
-      </a>
+      <a href="#https://w3id.org/OntoExhibit#program" title="https://w3id.org/OntoExhibit#program">program</a>
    </li>
    <li>
       <a href="#https://w3id.org/OntoExhibit#socialNetworkProfile"
-         title="https://w3id.org/OntoExhibit#socialNetworkProfile">
-         <span>social network profile</span>
-      </a>
+         title="https://w3id.org/OntoExhibit#socialNetworkProfile">social network profile</a>
    </li>
    <li>
-      <a href="#https://w3id.org/OntoExhibit#webPage" title="https://w3id.org/OntoExhibit#webPage">
-         <span>web page</span>
-      </a>
-   </li>
-</ul><h4>Annotation Properties</h4><ul xmlns:extra="https://w3id.org/extra#"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    class="hlist">
-   <li>
-      <a href="#http://purl.org/dc/terms/contributor" title="http://purl.org/dc/terms/contributor">
-         <span>contributor</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/created" title="http://purl.org/dc/terms/created">
-         <span>created</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
-         <span>creator</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
-         <span>description</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2002/07/owl#equivalentClass" title="http://www.w3.org/2002/07/owl#equivalentClass">
-         <span>equivalent class</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix"
-         title="http://purl.org/vocab/vann/preferredNamespacePrefix">
-         <span>preferred namespace prefix</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/vocab/vann/preferredNamespaceUri" title="http://purl.org/vocab/vann/preferredNamespaceUri">
-         <span>preferred namespace uri</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/rights" title="http://purl.org/dc/terms/rights">
-         <span>rights</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2002/07/owl#sameAs" title="http://www.w3.org/2002/07/owl#sameAs">
-         <span>same as</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
-         <span>title</span>
-      </a>
-   </li>
-   <li>
-      <a href="#http://www.w3.org/2002/07/owl#versionIRI" title="http://www.w3.org/2002/07/owl#versionIRI">
-         <span>version i r i</span>
-      </a>
+      <a href="#https://w3id.org/OntoExhibit#webPage" title="https://w3id.org/OntoExhibit#webPage">web page</a>
    </li>
 </ul><iframe align="center" width="100%" height ="500px" src="webvowl/index.html"></iframe> 
 </div>
@@ -3400,7 +3346,7 @@ This section provides details for each class and property defined by OntoExhibit
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/OntoExhibit#ISIC4Category" title="https://w3id.org/OntoExhibit#ISIC4Category">i s i c4 category</a>
+            <a href="#https://w3id.org/OntoExhibit#ISIC4Category" title="https://w3id.org/OntoExhibit#ISIC4Category">ISIC4Category</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
       </dl>
@@ -3991,6 +3937,19 @@ This section provides details for each class and property defined by OntoExhibit
             <a href="#ApproximateDate" title="https://w3id.org/OntoExhibit/ApproximateDate">approximate date</a>
             <sup class="type-c" title="class">c</sup>, <a href="#ExactDate" title="https://w3id.org/OntoExhibit/ExactDate">exact date</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isTheEndingDateOf" title="https://w3id.org/OntoExhibit/isTheEndingDateOf">is the ending date of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isTheStartingDateOf"
+               title="https://w3id.org/OntoExhibit/isTheStartingDateOf">is the starting date of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasEndingDate" title="https://w3id.org/OntoExhibit/hasEndingDate">has ending date</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasStartingDate" title="https://w3id.org/OntoExhibit/hasStartingDate">has starting date</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -4888,7 +4847,6 @@ This section provides details for each class and property defined by OntoExhibit
          <dt>is in domain of</dt>
          <dd>
             <a href="#https://w3id.org/OntoExhibit#activity" title="https://w3id.org/OntoExhibit#activity">activity</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/OntoExhibit#apelation" title="https://w3id.org/OntoExhibit#apelation">apelation</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/OntoExhibit#socialNetworkProfile"
                title="https://w3id.org/OntoExhibit#socialNetworkProfile">social network profile</a>
             <sup class="type-dp" title="data property">dp</sup>
@@ -4994,7 +4952,8 @@ This section provides details for each class and property defined by OntoExhibit
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/OntoExhibit#isTheAlmaMaterOf" title="https://w3id.org/OntoExhibit#isTheAlmaMaterOf">is the alma mater of</a>
+            <a href="#https://w3id.org/OntoExhibit#hasOwnership" title="https://w3id.org/OntoExhibit#hasOwnership">has ownership</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/OntoExhibit#isTheAlmaMaterOf" title="https://w3id.org/OntoExhibit#isTheAlmaMaterOf">is the alma mater of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -6699,6 +6658,12 @@ This section provides details for each class and property defined by OntoExhibit
             <a href="#TimeSpan" title="https://w3id.org/OntoExhibit/TimeSpan">time-span</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasEndingDate" title="https://w3id.org/OntoExhibit/hasEndingDate">has ending date</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasStartingDate" title="https://w3id.org/OntoExhibit/hasStartingDate">has starting date</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#https://w3id.org/OntoExhibit#hasHeadquarterIn" title="https://w3id.org/OntoExhibit#hasHeadquarterIn">has headquarter in</a>
@@ -6707,6 +6672,9 @@ This section provides details for each class and property defined by OntoExhibit
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/OntoExhibit#isAffiliatedIn" title="https://w3id.org/OntoExhibit#isAffiliatedIn">is affiliated in</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/OntoExhibit#isMemberIn" title="https://w3id.org/OntoExhibit#isMemberIn">is member in</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/OntoExhibit#IsRepresentedIn" title="https://w3id.org/OntoExhibit#IsRepresentedIn">is represented in</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isTheEndingDateOf" title="https://w3id.org/OntoExhibit/isTheEndingDateOf">is the ending date of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isTheStartingDateOf"
+               title="https://w3id.org/OntoExhibit/isTheStartingDateOf">is the starting date of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -7289,6 +7257,11 @@ This section provides details for each class and property defined by OntoExhibit
          </a>
       </li>
       <li>
+         <a href="#hasEndingDate" title="https://w3id.org/OntoExhibit/hasEndingDate">
+            <span>has ending date</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/OntoExhibit#hasExhibitionMaking" title="https://w3id.org/OntoExhibit#hasExhibitionMaking">
             <span>has exhibition making</span>
          </a>
@@ -7402,6 +7375,11 @@ This section provides details for each class and property defined by OntoExhibit
          <a href="#https://w3id.org/OntoExhibit#hasSourceOfInformation"
             title="https://w3id.org/OntoExhibit#hasSourceOfInformation">
             <span>has source of information</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasStartingDate" title="https://w3id.org/OntoExhibit/hasStartingDate">
+            <span>has starting date</span>
          </a>
       </li>
       <li>
@@ -7629,6 +7607,11 @@ This section provides details for each class and property defined by OntoExhibit
          </a>
       </li>
       <li>
+         <a href="#isTheEndingDateOf" title="https://w3id.org/OntoExhibit/isTheEndingDateOf">
+            <span>is the ending date of</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/OntoExhibit#isTheEntityMatrixOf"
             title="https://w3id.org/OntoExhibit#isTheEntityMatrixOf">
             <span>is the entity matrix of</span>
@@ -7745,6 +7728,12 @@ This section provides details for each class and property defined by OntoExhibit
       <li>
          <a href="#https://w3id.org/OntoExhibit#isTheSonOf" title="https://w3id.org/OntoExhibit#isTheSonOf">
             <span>is the son of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#isTheStartingDateOf"
+            title="https://w3id.org/OntoExhibit/isTheStartingDateOf">
+            <span>is the starting date of</span>
          </a>
       </li>
       <li>
@@ -9633,6 +9622,33 @@ This section provides details for each class and property defined by OntoExhibit
          </dl>
       </div>
    </div>
+   <div class="entity" id="hasEndingDate">
+      <h3>has ending date<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/OntoExhibit/hasEndingDate</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TimeRange" title="https://w3id.org/OntoExhibit/TimeRange">time range</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Date" title="https://w3id.org/OntoExhibit/Date">date</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isTheEndingDateOf" title="https://w3id.org/OntoExhibit/isTheEndingDateOf">is the ending date of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/OntoExhibit#hasExhibitionMaking">
       <h3>has exhibition making<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -10283,6 +10299,34 @@ This section provides details for each class and property defined by OntoExhibit
             <dd>
                <a href="#https://w3id.org/OntoExhibit#isSourceOfInformationOf"
                   title="https://w3id.org/OntoExhibit#isSourceOfInformationOf">is source of information of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasStartingDate">
+      <h3>has starting date<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/OntoExhibit/hasStartingDate</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TimeRange" title="https://w3id.org/OntoExhibit/TimeRange">time range</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Date" title="https://w3id.org/OntoExhibit/Date">date</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isTheStartingDateOf"
+                  title="https://w3id.org/OntoExhibit/isTheStartingDateOf">is the starting date of</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -11504,6 +11548,33 @@ This section provides details for each class and property defined by OntoExhibit
          </dl>
       </div>
    </div>
+   <div class="entity" id="isTheEndingDateOf">
+      <h3>is the ending date of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/OntoExhibit/isTheEndingDateOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Date" title="https://w3id.org/OntoExhibit/Date">date</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#TimeRange" title="https://w3id.org/OntoExhibit/TimeRange">time range</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasEndingDate" title="https://w3id.org/OntoExhibit/hasEndingDate">has ending date</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/OntoExhibit#isTheEntityMatrixOf">
       <h3>is the entity matrix of<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -12139,6 +12210,33 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person"
                   title="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person">person</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isTheStartingDateOf">
+      <h3>is the starting date of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/OntoExhibit/isTheStartingDateOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Date" title="https://w3id.org/OntoExhibit/Date">date</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#TimeRange" title="https://w3id.org/OntoExhibit/TimeRange">time range</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasStartingDate" title="https://w3id.org/OntoExhibit/hasStartingDate">has starting date</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -13922,86 +14020,69 @@ This section provides details for each class and property defined by OntoExhibit
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#https://w3id.org/OntoExhibit#access" title="https://w3id.org/OntoExhibit#access">
-            <span>access</span>
+         <a href="#https://w3id.org/OntoExhibit#access" title="https://w3id.org/OntoExhibit#access">access</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#activity" title="https://w3id.org/OntoExhibit#activity">activity</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#apelation" title="https://w3id.org/OntoExhibit#apelation">apelation</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#budget" title="https://w3id.org/OntoExhibit#budget">budget</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#degree" title="https://w3id.org/OntoExhibit#degree">degree</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#description" title="https://w3id.org/OntoExhibit#description">description</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#gender" title="https://w3id.org/OntoExhibit#gender">gender</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#hasOwnership" title="https://w3id.org/OntoExhibit#hasOwnership">
+            <span>has ownership</span>
          </a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#activity" title="https://w3id.org/OntoExhibit#activity">
-            <span>activity</span>
+         <a href="#https://w3id.org/OntoExhibit#identifier" title="https://w3id.org/OntoExhibit#identifier">identifier</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/OntoExhibit#ISIC4Category" title="https://w3id.org/OntoExhibit#ISIC4Category">ISIC4Category</a>
+      </li>
+      <li>
+         <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#lat" title="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+            <span>lat</span>
          </a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#apelation" title="https://w3id.org/OntoExhibit#apelation">
-            <span>apelation</span>
+         <a href="#http://www.w3.org/2003/01/geo/wgs84_pos#long" title="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+            <span>long</span>
          </a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#budget" title="https://w3id.org/OntoExhibit#budget">
-            <span>budget</span>
-         </a>
+         <a href="#https://w3id.org/OntoExhibit#name" title="https://w3id.org/OntoExhibit#name">name</a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#degree" title="https://w3id.org/OntoExhibit#degree">
-            <span>degree</span>
-         </a>
+         <a href="#https://w3id.org/OntoExhibit#numberOfAttendants" title="https://w3id.org/OntoExhibit#numberOfAttendants">number of attendants</a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#description" title="https://w3id.org/OntoExhibit#description">
-            <span>description</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/OntoExhibit#gender" title="https://w3id.org/OntoExhibit#gender">
-            <span>gender</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/OntoExhibit#ISIC4Category" title="https://w3id.org/OntoExhibit#ISIC4Category">
-            <span>i s i c4 category</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/OntoExhibit#identifier" title="https://w3id.org/OntoExhibit#identifier">
-            <span>identifier</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/OntoExhibit#name" title="https://w3id.org/OntoExhibit#name">
-            <span>name</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/OntoExhibit#numberOfAttendants" title="https://w3id.org/OntoExhibit#numberOfAttendants">
-            <span>number of attendants</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/OntoExhibit#price" title="https://w3id.org/OntoExhibit#price">
-            <span>price</span>
-         </a>
+         <a href="#https://w3id.org/OntoExhibit#price" title="https://w3id.org/OntoExhibit#price">price</a>
       </li>
       <li>
          <a href="#https://w3id.org/OntoExhibit#professionalActivity"
-            title="https://w3id.org/OntoExhibit#professionalActivity">
-            <span>professional activity</span>
-         </a>
+            title="https://w3id.org/OntoExhibit#professionalActivity">professional activity</a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#program" title="https://w3id.org/OntoExhibit#program">
-            <span>program</span>
-         </a>
+         <a href="#https://w3id.org/OntoExhibit#program" title="https://w3id.org/OntoExhibit#program">program</a>
       </li>
       <li>
          <a href="#https://w3id.org/OntoExhibit#socialNetworkProfile"
-            title="https://w3id.org/OntoExhibit#socialNetworkProfile">
-            <span>social network profile</span>
-         </a>
+            title="https://w3id.org/OntoExhibit#socialNetworkProfile">social network profile</a>
       </li>
       <li>
-         <a href="#https://w3id.org/OntoExhibit#webPage" title="https://w3id.org/OntoExhibit#webPage">
-            <span>web page</span>
-         </a>
+         <a href="#https://w3id.org/OntoExhibit#webPage" title="https://w3id.org/OntoExhibit#webPage">web page</a>
       </li>
    </ul>
    <div class="entity" id="https://w3id.org/OntoExhibit#access">
@@ -14018,6 +14099,8 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#Activity" title="https://w3id.org/OntoExhibit/Activity">activity</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>{ "free" , "paid" }</dd>
          </dl>
       </div>
    </div>
@@ -14035,6 +14118,12 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#HumanActant" title="https://w3id.org/OntoExhibit/HumanActant">human actant</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -14050,7 +14139,16 @@ This section provides details for each class and property defined by OntoExhibit
             <dt>has domain</dt>
             <dd>
                <a href="#HumanActant" title="https://w3id.org/OntoExhibit/HumanActant">human actant</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Institution" title="https://w3id.org/OntoExhibit/Institution">institution</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
             </dd>
          </dl>
       </div>
@@ -14069,6 +14167,12 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#Activity" title="https://w3id.org/OntoExhibit/Activity">activity</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -14086,6 +14190,12 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person"
                   title="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person">person</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
             </dd>
          </dl>
       </div>
@@ -14122,23 +14232,31 @@ This section provides details for each class and property defined by OntoExhibit
                   title="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person">person</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/OntoExhibit#ISIC4Category">
-      <h3>i s i c4 category<sup class="type-dp" title="data property">dp</sup>
+   <div class="entity" id="https://w3id.org/OntoExhibit#hasOwnership">
+      <h3>has ownership<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/OntoExhibit#ISIC4Category</p>
+         <strong>IRI:</strong> https://w3id.org/OntoExhibit#hasOwnership</p>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#Company" title="https://w3id.org/OntoExhibit/Company">company</a>
+               <a href="#Institution" title="https://w3id.org/OntoExhibit/Institution">institution</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>{ "mixed" , "private" , "public" }</dd>
          </dl>
       </div>
    </div>
@@ -14154,6 +14272,75 @@ This section provides details for each class and property defined by OntoExhibit
             <dt>has domain</dt>
             <dd>
                <a href="#Actant" title="https://w3id.org/OntoExhibit/Actant">actant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/OntoExhibit#ISIC4Category">
+      <h3>ISIC4Category<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/OntoExhibit#ISIC4Category</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Company" title="https://w3id.org/OntoExhibit/Company">company</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+      <h3>lat<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2003/01/geo/wgs84_pos#lat</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PhysicalSite" title="https://w3id.org/OntoExhibit/PhysicalSite">physical place</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#TerritorialEntity" title="https://w3id.org/OntoExhibit/TerritorialEntity">territorial entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+      <h3>long<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.w3.org/2003/01/geo/wgs84_pos#long</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PhysicalSite" title="https://w3id.org/OntoExhibit/PhysicalSite">physical place</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#TerritorialEntity" title="https://w3id.org/OntoExhibit/TerritorialEntity">territorial entity</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -14173,6 +14360,12 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#Actant" title="https://w3id.org/OntoExhibit/Actant">actant</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -14190,6 +14383,12 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#Activity" title="https://w3id.org/OntoExhibit/Activity">activity</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -14206,6 +14405,12 @@ This section provides details for each class and property defined by OntoExhibit
             <dd>
                <a href="#Activity" title="https://w3id.org/OntoExhibit/Activity">activity</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
             </dd>
          </dl>
       </div>
@@ -14225,6 +14430,12 @@ This section provides details for each class and property defined by OntoExhibit
                   title="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person">person</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -14242,6 +14453,12 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#Activity" title="https://w3id.org/OntoExhibit/Activity">activity</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
          </dl>
       </div>
    </div>
@@ -14258,6 +14475,12 @@ This section provides details for each class and property defined by OntoExhibit
             <dd>
                <a href="#HumanActant" title="https://w3id.org/OntoExhibit/HumanActant">human actant</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#anyURI"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#anyURI">anyURI</a>
             </dd>
          </dl>
       </div>
@@ -14279,158 +14502,14 @@ This section provides details for each class and property defined by OntoExhibit
                <a href="#HumanActant" title="https://w3id.org/OntoExhibit/HumanActant">human actant</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#anyURI"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#anyURI">anyURI</a>
+            </dd>
          </dl>
       </div>
-   </div>
-</div><div xmlns:extra="https://w3id.org/extra#"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     id="annotationproperties">
-   <h3 id="annotationproperties" class="list">Annotation Properties</h3>
-   <ul class="hlist">
-      <li>
-         <a href="#http://purl.org/dc/terms/contributor" title="http://purl.org/dc/terms/contributor">
-            <span>contributor</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/created" title="http://purl.org/dc/terms/created">
-            <span>created</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/creator" title="http://purl.org/dc/terms/creator">
-            <span>creator</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/description" title="http://purl.org/dc/terms/description">
-            <span>description</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2002/07/owl#equivalentClass" title="http://www.w3.org/2002/07/owl#equivalentClass">
-            <span>equivalent class</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/vocab/vann/preferredNamespacePrefix"
-            title="http://purl.org/vocab/vann/preferredNamespacePrefix">
-            <span>preferred namespace prefix</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/vocab/vann/preferredNamespaceUri" title="http://purl.org/vocab/vann/preferredNamespaceUri">
-            <span>preferred namespace uri</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/rights" title="http://purl.org/dc/terms/rights">
-            <span>rights</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2002/07/owl#sameAs" title="http://www.w3.org/2002/07/owl#sameAs">
-            <span>same as</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://purl.org/dc/terms/title" title="http://purl.org/dc/terms/title">
-            <span>title</span>
-         </a>
-      </li>
-      <li>
-         <a href="#http://www.w3.org/2002/07/owl#versionIRI" title="http://www.w3.org/2002/07/owl#versionIRI">
-            <span>version i r i</span>
-         </a>
-      </li>
-   </ul>
-   <div class="entity" id="http://purl.org/dc/terms/contributor">
-      <h3>contributor<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/contributor</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/created">
-      <h3>created<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/created</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/creator">
-      <h3>creator<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/creator</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/description">
-      <h3>description<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/description</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/2002/07/owl#equivalentClass">
-      <h3>equivalent class<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#equivalentClass</p>
-   </div>
-   <div class="entity" id="http://purl.org/vocab/vann/preferredNamespacePrefix">
-      <h3>preferred namespace prefix<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/vocab/vann/preferredNamespacePrefix</p>
-   </div>
-   <div class="entity" id="http://purl.org/vocab/vann/preferredNamespaceUri">
-      <h3>preferred namespace uri<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/vocab/vann/preferredNamespaceUri</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/rights">
-      <h3>rights<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/rights</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/2002/07/owl#sameAs">
-      <h3>same as<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#sameAs</p>
-   </div>
-   <div class="entity" id="http://purl.org/dc/terms/title">
-      <h3>title<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://purl.org/dc/terms/title</p>
-   </div>
-   <div class="entity" id="http://www.w3.org/2002/07/owl#versionIRI">
-      <h3>version i r i<sup class="type-ap" title="annotation property">ap</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.w3.org/2002/07/owl#versionIRI</p>
    </div>
 </div><div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>

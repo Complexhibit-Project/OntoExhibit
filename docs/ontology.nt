@@ -3,6 +3,7 @@
 <https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/created> "2022-11" .
 <https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/creator> "Maria del Mar Roldán García" .
 <https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/creator> "Martín Jerónimo Salvachúa" .
+<https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/creator> "María Luisa Díez Platas" .
 <https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/creator> "Nuria Rodriguez Ortega" .
 <https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/description> "OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information." .
 <https://w3id.org/OntoExhibit> <http://purl.org/dc/terms/rights> "https://opensource.org/licenses/MIT" .
@@ -1366,6 +1367,28 @@ _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/OntoExhibit#wasTheProjectDirectorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/ProjectDirector> .
 <https://w3id.org/OntoExhibit#wasTheProjectDirectorOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoExhibit/ExhibitionMaking> .
 # 
+# https://w3id.org/OntoExhibit/hasEndingDate
+<https://w3id.org/OntoExhibit/hasEndingDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoExhibit/hasEndingDate> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/OntoExhibit/isTheEndingDateOf> .
+<https://w3id.org/OntoExhibit/hasEndingDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/TimeRange> .
+<https://w3id.org/OntoExhibit/hasEndingDate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoExhibit/Date> .
+# 
+# https://w3id.org/OntoExhibit/hasStartingDate
+<https://w3id.org/OntoExhibit/hasStartingDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoExhibit/hasStartingDate> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/OntoExhibit/isTheStartingDateOf> .
+<https://w3id.org/OntoExhibit/hasStartingDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/TimeRange> .
+<https://w3id.org/OntoExhibit/hasStartingDate> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoExhibit/Date> .
+# 
+# https://w3id.org/OntoExhibit/isTheEndingDateOf
+<https://w3id.org/OntoExhibit/isTheEndingDateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoExhibit/isTheEndingDateOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Date> .
+<https://w3id.org/OntoExhibit/isTheEndingDateOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoExhibit/TimeRange> .
+# 
+# https://w3id.org/OntoExhibit/isTheStartingDateOf
+<https://w3id.org/OntoExhibit/isTheStartingDateOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/OntoExhibit/isTheStartingDateOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Date> .
+<https://w3id.org/OntoExhibit/isTheStartingDateOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/OntoExhibit/TimeRange> .
+# 
 # 
 # 
 # #################################################################
@@ -1375,77 +1398,180 @@ _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
+# http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#unionOf> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/TerritorialEntity> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/PhysicalSite> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#unionOf> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/TerritorialEntity> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/PhysicalSite> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
 # https://w3id.org/OntoExhibit#ISIC4Category
 <https://w3id.org/OntoExhibit#ISIC4Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#ISIC4Category> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Company> .
+<https://w3id.org/OntoExhibit#ISIC4Category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#ISIC4Category> <http://www.w3.org/2000/01/rdf-schema#label> "Categoría ISIC4"@es .
+<https://w3id.org/OntoExhibit#ISIC4Category> <http://www.w3.org/2000/01/rdf-schema#label> "ISIC4Category"@en .
 # 
 # https://w3id.org/OntoExhibit#access
 <https://w3id.org/OntoExhibit#access> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#access> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Activity> .
+<https://w3id.org/OntoExhibit#access> <http://www.w3.org/2000/01/rdf-schema#range> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#oneOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "paid" .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "free" .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<https://w3id.org/OntoExhibit#access> <http://www.w3.org/2000/01/rdf-schema#label> "access"@en .
+<https://w3id.org/OntoExhibit#access> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de acceso"@es .
 # 
 # https://w3id.org/OntoExhibit#activity
 <https://w3id.org/OntoExhibit#activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#activity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/HumanActant> .
+<https://w3id.org/OntoExhibit#activity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#activity> <http://www.w3.org/2000/01/rdf-schema#label> "actividad"@es .
+<https://w3id.org/OntoExhibit#activity> <http://www.w3.org/2000/01/rdf-schema#label> "activity"@en .
 # 
 # https://w3id.org/OntoExhibit#apelation
 <https://w3id.org/OntoExhibit#apelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/OntoExhibit#apelation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/HumanActant> .
+<https://w3id.org/OntoExhibit#apelation> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#unionOf> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/Institution> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/HumanActant> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoExhibit#apelation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#apelation> <http://www.w3.org/2000/01/rdf-schema#label> "apelation"@en .
+<https://w3id.org/OntoExhibit#apelation> <http://www.w3.org/2000/01/rdf-schema#label> "nombre alternativo"@es .
 # 
 # https://w3id.org/OntoExhibit#budget
 <https://w3id.org/OntoExhibit#budget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#budget> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Activity> .
+<https://w3id.org/OntoExhibit#budget> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#budget> <http://www.w3.org/2000/01/rdf-schema#label> "budget"@en .
+<https://w3id.org/OntoExhibit#budget> <http://www.w3.org/2000/01/rdf-schema#label> "presupuesto"@es .
 # 
 # https://w3id.org/OntoExhibit#degree
 <https://w3id.org/OntoExhibit#degree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#degree> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> .
+<https://w3id.org/OntoExhibit#degree> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#degree> <http://www.w3.org/2000/01/rdf-schema#label> "degree"@en .
+<https://w3id.org/OntoExhibit#degree> <http://www.w3.org/2000/01/rdf-schema#label> "titulación"@es .
 # 
 # https://w3id.org/OntoExhibit#description
 <https://w3id.org/OntoExhibit#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Activity> .
+<https://w3id.org/OntoExhibit#description> <http://www.w3.org/2000/01/rdf-schema#label> "descripción"@es .
+<https://w3id.org/OntoExhibit#description> <http://www.w3.org/2000/01/rdf-schema#label> "description"@en .
 # 
 # https://w3id.org/OntoExhibit#gender
 <https://w3id.org/OntoExhibit#gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#gender> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> .
+<https://w3id.org/OntoExhibit#gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#gender> <http://www.w3.org/2000/01/rdf-schema#label> "gender"@en .
+<https://w3id.org/OntoExhibit#gender> <http://www.w3.org/2000/01/rdf-schema#label> "género"@es .
+# 
+# https://w3id.org/OntoExhibit#hasOwnership
+<https://w3id.org/OntoExhibit#hasOwnership> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/OntoExhibit#hasOwnership> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Institution> .
+<https://w3id.org/OntoExhibit#hasOwnership> <http://www.w3.org/2000/01/rdf-schema#range> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#oneOf> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "public" .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "private" .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "mixed" .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
 # https://w3id.org/OntoExhibit#identifier
 <https://w3id.org/OntoExhibit#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Actant> .
+<https://w3id.org/OntoExhibit#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identificador"@es .
+<https://w3id.org/OntoExhibit#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
 # 
 # https://w3id.org/OntoExhibit#name
 <https://w3id.org/OntoExhibit#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Actant> .
+<https://w3id.org/OntoExhibit#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+<https://w3id.org/OntoExhibit#name> <http://www.w3.org/2000/01/rdf-schema#label> "nombre"@es .
 # 
 # https://w3id.org/OntoExhibit#numberOfAttendants
 <https://w3id.org/OntoExhibit#numberOfAttendants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#numberOfAttendants> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Activity> .
+<https://w3id.org/OntoExhibit#numberOfAttendants> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/OntoExhibit#numberOfAttendants> <http://www.w3.org/2000/01/rdf-schema#label> "number of attendants"@en .
+<https://w3id.org/OntoExhibit#numberOfAttendants> <http://www.w3.org/2000/01/rdf-schema#label> "número de asistentes"@es .
 # 
 # https://w3id.org/OntoExhibit#price
 <https://w3id.org/OntoExhibit#price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#price> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Activity> .
+<https://w3id.org/OntoExhibit#price> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<https://w3id.org/OntoExhibit#price> <http://www.w3.org/2000/01/rdf-schema#label> "precio"@es .
+<https://w3id.org/OntoExhibit#price> <http://www.w3.org/2000/01/rdf-schema#label> "price"@en .
 # 
 # https://w3id.org/OntoExhibit#professionalActivity
 <https://w3id.org/OntoExhibit#professionalActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#professionalActivity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> .
+<https://w3id.org/OntoExhibit#professionalActivity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#professionalActivity> <http://www.w3.org/2000/01/rdf-schema#label> "actividad profesional"@es .
+<https://w3id.org/OntoExhibit#professionalActivity> <http://www.w3.org/2000/01/rdf-schema#label> "professional activity"@en .
 # 
 # https://w3id.org/OntoExhibit#program
 <https://w3id.org/OntoExhibit#program> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#program> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/Activity> .
+<https://w3id.org/OntoExhibit#program> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/OntoExhibit#program> <http://www.w3.org/2000/01/rdf-schema#label> "program"@en .
+<https://w3id.org/OntoExhibit#program> <http://www.w3.org/2000/01/rdf-schema#label> "programa"@es .
 # 
 # https://w3id.org/OntoExhibit#socialNetworkProfile
 <https://w3id.org/OntoExhibit#socialNetworkProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/OntoExhibit#socialNetworkProfile> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/OntoExhibit/HumanActant> .
+<https://w3id.org/OntoExhibit#socialNetworkProfile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/OntoExhibit#socialNetworkProfile> <http://www.w3.org/2000/01/rdf-schema#label> "perfil en red social"@es .
+<https://w3id.org/OntoExhibit#socialNetworkProfile> <http://www.w3.org/2000/01/rdf-schema#label> "social network profile"@en .
 # 
 # https://w3id.org/OntoExhibit#webPage
 <https://w3id.org/OntoExhibit#webPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/OntoExhibit#webPage> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid69 .
-_:genid69 <http://www.w3.org/2002/07/owl#unionOf> _:genid71 .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/HumanActant> .
-_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/Activity> .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoExhibit#webPage> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#unionOf> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/HumanActant> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/OntoExhibit/Activity> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/OntoExhibit#webPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/OntoExhibit#webPage> <http://www.w3.org/2000/01/rdf-schema#label> "página web"@es .
+<https://w3id.org/OntoExhibit#webPage> <http://www.w3.org/2000/01/rdf-schema#label> "web page"@en .
 # 
 # 
 # 
@@ -1507,10 +1633,10 @@ _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://cidoc-crm.org/cidoc-crm/7.1.1/E63_Beginning_of_Existence> .
-<https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
-_:genid72 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/TerritorialEntity> .
-_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#tookPlaceAt> .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/TerritorialEntity> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#tookPlaceAt> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth> <http://www.w3.org/2000/01/rdf-schema#label> "birth"@en .
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E67_Birth> <http://www.w3.org/2000/01/rdf-schema#label> "nacimiento"@es .
 # 
@@ -1523,10 +1649,10 @@ _:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence> .
-<https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
-_:genid73 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/PhysicalSite> .
-_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#tookPlaceAt> .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/TerritorialEntity> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#tookPlaceAt> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death> <http://www.w3.org/2000/01/rdf-schema#label> "death"@en .
 <https://cidoc-crm.org/cidoc-crm/7.1.1/E69_Death> <http://www.w3.org/2000/01/rdf-schema#label> "muerte"@es .
 # 
@@ -1990,24 +2116,24 @@ _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoExhibit/ExhibitionaryEvent> .
 <https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoExhibit/WorkManifestation> .
-<https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
-_:genid74 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/CuratorialDiscourse> .
-_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#conveys> .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
-_:genid75 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> .
-_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#isTheMaterializationOf> .
-_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/CuratorialDiscourse> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#conveys> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#isTheMaterializationOf> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#label> "exhibition"@en .
 <https://w3id.org/OntoExhibit/Exhibition> <http://www.w3.org/2000/01/rdf-schema#label> "exposición"@es .
 # 
 # https://w3id.org/OntoExhibit/ExhibitionCuratorialProject
 <https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoExhibit/ConceptualWork> .
-<https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
-_:genid76 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/ExhibitionaryEvent> .
-_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#isMaterializedIn> .
-_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/ExhibitionaryEvent> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#isMaterializedIn> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> <http://www.w3.org/2000/01/rdf-schema#label> "exhibition curatorial project"@en .
 <https://w3id.org/OntoExhibit/ExhibitionCuratorialProject> <http://www.w3.org/2000/01/rdf-schema#label> "proyecto de comisariado de la exposición"@es .
 # 
@@ -2255,10 +2381,10 @@ _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # https://w3id.org/OntoExhibit/Owner
 <https://w3id.org/OntoExhibit/Owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/OntoExhibit/Owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/OntoExhibit/Role> .
-<https://w3id.org/OntoExhibit/Owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
-_:genid77 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/HumanActant> .
-_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#isTheRoleOf> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/OntoExhibit/Owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/OntoExhibit/HumanActant> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/OntoExhibit#isTheRoleOf> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/OntoExhibit/Owner> <http://www.w3.org/2000/01/rdf-schema#label> "owner"@en .
 <https://w3id.org/OntoExhibit/Owner> <http://www.w3.org/2000/01/rdf-schema#label> "propietario"@es .
 # 
