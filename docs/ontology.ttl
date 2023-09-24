@@ -11,6 +11,7 @@
                                 <http://purl.org/dc/terms/created> "2022-11" ;
                                 <http://purl.org/dc/terms/creator> "Maria del Mar Roldán García" ,
                                                                    "Martín Jerónimo Salvachúa" ,
+                                                                   "María Luisa Díez Platas" ,
                                                                    "Nuria Rodriguez Ortega" ;
                                 <http://purl.org/dc/terms/description> "OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information." ;
                                 <http://purl.org/dc/terms/rights> "https://opensource.org/licenses/MIT" ;
@@ -1488,83 +1489,200 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                          rdfs:range <https://w3id.org/OntoExhibit/ExhibitionMaking> .
 
 
+###  https://w3id.org/OntoExhibit/hasEndingDate
+<https://w3id.org/OntoExhibit/hasEndingDate> rdf:type owl:ObjectProperty ;
+                                             owl:inverseOf <https://w3id.org/OntoExhibit/isTheEndingDateOf> ;
+                                             rdfs:domain <https://w3id.org/OntoExhibit/TimeRange> ;
+                                             rdfs:range <https://w3id.org/OntoExhibit/Date> .
+
+
+###  https://w3id.org/OntoExhibit/hasStartingDate
+<https://w3id.org/OntoExhibit/hasStartingDate> rdf:type owl:ObjectProperty ;
+                                               owl:inverseOf <https://w3id.org/OntoExhibit/isTheStartingDateOf> ;
+                                               rdfs:domain <https://w3id.org/OntoExhibit/TimeRange> ;
+                                               rdfs:range <https://w3id.org/OntoExhibit/Date> .
+
+
+###  https://w3id.org/OntoExhibit/isTheEndingDateOf
+<https://w3id.org/OntoExhibit/isTheEndingDateOf> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <https://w3id.org/OntoExhibit/Date> ;
+                                                 rdfs:range <https://w3id.org/OntoExhibit/TimeRange> .
+
+
+###  https://w3id.org/OntoExhibit/isTheStartingDateOf
+<https://w3id.org/OntoExhibit/isTheStartingDateOf> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <https://w3id.org/OntoExhibit/Date> ;
+                                                   rdfs:range <https://w3id.org/OntoExhibit/TimeRange> .
+
+
 #################################################################
 #    Data properties
 #################################################################
 
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain [ rdf:type owl:Class ;
+                                                            owl:unionOf ( <https://w3id.org/OntoExhibit/PhysicalSite>
+                                                                          <https://w3id.org/OntoExhibit/TerritorialEntity>
+                                                                        )
+                                                          ] .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain [ rdf:type owl:Class ;
+                                                             owl:unionOf ( <https://w3id.org/OntoExhibit/PhysicalSite>
+                                                                           <https://w3id.org/OntoExhibit/TerritorialEntity>
+                                                                         )
+                                                           ] .
+
+
 ###  https://w3id.org/OntoExhibit#ISIC4Category
 :ISIC4Category rdf:type owl:DatatypeProperty ;
-               rdfs:domain <https://w3id.org/OntoExhibit/Company> .
+               rdfs:domain <https://w3id.org/OntoExhibit/Company> ;
+               rdfs:range xsd:string ;
+               rdfs:label "Categoría ISIC4"@es ,
+                          "ISIC4Category"@en .
 
 
 ###  https://w3id.org/OntoExhibit#access
 :access rdf:type owl:DatatypeProperty ;
-        rdfs:domain <https://w3id.org/OntoExhibit/Activity> .
+        rdfs:domain <https://w3id.org/OntoExhibit/Activity> ;
+        rdfs:range [ rdf:type rdfs:Datatype ;
+                     owl:oneOf [ rdf:type rdf:List ;
+                                 rdf:first "free" ;
+                                 rdf:rest [ rdf:type rdf:List ;
+                                            rdf:first "paid" ;
+                                            rdf:rest rdf:nil
+                                          ]
+                               ]
+                   ] ;
+        rdfs:label "access"@en ,
+                   "tipo de acceso"@es .
 
 
 ###  https://w3id.org/OntoExhibit#activity
 :activity rdf:type owl:DatatypeProperty ;
-          rdfs:domain <https://w3id.org/OntoExhibit/HumanActant> .
+          rdfs:domain <https://w3id.org/OntoExhibit/HumanActant> ;
+          rdfs:range xsd:string ;
+          rdfs:label "actividad"@es ,
+                     "activity"@en .
 
 
 ###  https://w3id.org/OntoExhibit#apelation
 :apelation rdf:type owl:DatatypeProperty ;
-           rdfs:domain <https://w3id.org/OntoExhibit/HumanActant> .
+           rdfs:domain [ rdf:type owl:Class ;
+                         owl:unionOf ( <https://w3id.org/OntoExhibit/HumanActant>
+                                       <https://w3id.org/OntoExhibit/Institution>
+                                     )
+                       ] ;
+           rdfs:range xsd:string ;
+           rdfs:label "apelation"@en ,
+                      "nombre alternativo"@es .
 
 
 ###  https://w3id.org/OntoExhibit#budget
 :budget rdf:type owl:DatatypeProperty ;
-        rdfs:domain <https://w3id.org/OntoExhibit/Activity> .
+        rdfs:domain <https://w3id.org/OntoExhibit/Activity> ;
+        rdfs:range xsd:string ;
+        rdfs:label "budget"@en ,
+                   "presupuesto"@es .
 
 
 ###  https://w3id.org/OntoExhibit#degree
 :degree rdf:type owl:DatatypeProperty ;
-        rdfs:domain <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> .
+        rdfs:domain <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> ;
+        rdfs:range xsd:string ;
+        rdfs:label "degree"@en ,
+                   "titulación"@es .
 
 
 ###  https://w3id.org/OntoExhibit#description
 :description rdf:type owl:DatatypeProperty ;
-             rdfs:domain <https://w3id.org/OntoExhibit/Activity> .
+             rdfs:domain <https://w3id.org/OntoExhibit/Activity> ;
+             rdfs:label "descripción"@es ,
+                        "description"@en .
 
 
 ###  https://w3id.org/OntoExhibit#gender
 :gender rdf:type owl:DatatypeProperty ;
-        rdfs:domain <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> .
+        rdfs:domain <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> ;
+        rdfs:range xsd:string ;
+        rdfs:label "gender"@en ,
+                   "género"@es .
+
+
+###  https://w3id.org/OntoExhibit#hasOwnership
+:hasOwnership rdf:type owl:DatatypeProperty ;
+              rdfs:domain <https://w3id.org/OntoExhibit/Institution> ;
+              rdfs:range [ rdf:type rdfs:Datatype ;
+                           owl:oneOf [ rdf:type rdf:List ;
+                                       rdf:first "mixed" ;
+                                       rdf:rest [ rdf:type rdf:List ;
+                                                  rdf:first "private" ;
+                                                  rdf:rest [ rdf:type rdf:List ;
+                                                             rdf:first "public" ;
+                                                             rdf:rest rdf:nil
+                                                           ]
+                                                ]
+                                     ]
+                         ] .
 
 
 ###  https://w3id.org/OntoExhibit#identifier
 :identifier rdf:type owl:DatatypeProperty ;
-            rdfs:domain <https://w3id.org/OntoExhibit/Actant> .
+            rdfs:domain <https://w3id.org/OntoExhibit/Actant> ;
+            rdfs:range xsd:string ;
+            rdfs:label "identificador"@es ,
+                       "identifier"@en .
 
 
 ###  https://w3id.org/OntoExhibit#name
 :name rdf:type owl:DatatypeProperty ;
-      rdfs:domain <https://w3id.org/OntoExhibit/Actant> .
+      rdfs:domain <https://w3id.org/OntoExhibit/Actant> ;
+      rdfs:range xsd:string ;
+      rdfs:label "name"@en ,
+                 "nombre"@es .
 
 
 ###  https://w3id.org/OntoExhibit#numberOfAttendants
 :numberOfAttendants rdf:type owl:DatatypeProperty ;
-                    rdfs:domain <https://w3id.org/OntoExhibit/Activity> .
+                    rdfs:domain <https://w3id.org/OntoExhibit/Activity> ;
+                    rdfs:range xsd:integer ;
+                    rdfs:label "number of attendants"@en ,
+                               "número de asistentes"@es .
 
 
 ###  https://w3id.org/OntoExhibit#price
 :price rdf:type owl:DatatypeProperty ;
-       rdfs:domain <https://w3id.org/OntoExhibit/Activity> .
+       rdfs:domain <https://w3id.org/OntoExhibit/Activity> ;
+       rdfs:range xsd:decimal ;
+       rdfs:label "precio"@es ,
+                  "price"@en .
 
 
 ###  https://w3id.org/OntoExhibit#professionalActivity
 :professionalActivity rdf:type owl:DatatypeProperty ;
-                      rdfs:domain <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> .
+                      rdfs:domain <https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person> ;
+                      rdfs:range xsd:string ;
+                      rdfs:label "actividad profesional"@es ,
+                                 "professional activity"@en .
 
 
 ###  https://w3id.org/OntoExhibit#program
 :program rdf:type owl:DatatypeProperty ;
-         rdfs:domain <https://w3id.org/OntoExhibit/Activity> .
+         rdfs:domain <https://w3id.org/OntoExhibit/Activity> ;
+         rdfs:range xsd:string ;
+         rdfs:label "program"@en ,
+                    "programa"@es .
 
 
 ###  https://w3id.org/OntoExhibit#socialNetworkProfile
 :socialNetworkProfile rdf:type owl:DatatypeProperty ;
-                      rdfs:domain <https://w3id.org/OntoExhibit/HumanActant> .
+                      rdfs:domain <https://w3id.org/OntoExhibit/HumanActant> ;
+                      rdfs:range xsd:anyURI ;
+                      rdfs:label "perfil en red social"@es ,
+                                 "social network profile"@en .
 
 
 ###  https://w3id.org/OntoExhibit#webPage
@@ -1573,7 +1691,10 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                        owl:unionOf ( <https://w3id.org/OntoExhibit/Activity>
                                      <https://w3id.org/OntoExhibit/HumanActant>
                                    )
-                     ] .
+                     ] ;
+         rdfs:range xsd:anyURI ;
+         rdfs:label "página web"@es ,
+                    "web page"@en .
 
 
 #################################################################
@@ -1659,7 +1780,7 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                                                   rdfs:subClassOf <https://cidoc-crm.org/cidoc-crm/7.1.1/E64_End_of_Existence> ,
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty :tookPlaceAt ;
-                                                                    owl:allValuesFrom <https://w3id.org/OntoExhibit/PhysicalSite>
+                                                                    owl:allValuesFrom <https://w3id.org/OntoExhibit/TerritorialEntity>
                                                                   ] ;
                                                   rdfs:label "death"@en ,
                                                              "muerte"@es .
