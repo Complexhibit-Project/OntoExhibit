@@ -6,9 +6,20 @@ The ontology is available in:
 
 OWL: https://complexhibit-project.github.io/OntoExhibit/ontology.owl
 
-Contact: 
+## Contact 📧
 
-- Nuria Rodríguez Ortega <nro@uma.es>
-- María del Mar Roldán García <mrgarcia@uma.es> (https://github.com/mmroldan)
-- Martín Jerónimo Salvachúa <martinjs@uma.es> (https://github.com/MartinM10)
-- María Luisa Díez Platas <marialuisa.diez@unir.net>
+Feel free to contact us:
+
+- Nuria Rodríguez Ortega 
+  - email: <nro@uma.es>
+  
+- María del Mar Roldán García  
+  - email: <mrgarcia@uma.es>  
+  - GitHub: [mmroldan](https://github.com/mmroldan)
+  
+- Martín Jerónimo Salvachúa  
+  - email: <martinjs@uma.es>  
+  - GitHub: [MartinM10](https://github.com/MartinM10)
+  
+- María Luisa Díez Platas  
+  - email: <marialuisa.diez@unir.net>
