@@ -8,21 +8,53 @@
 
 <https://w3id.org/OntoExhibit> rdf:type owl:Ontology ;
                                 owl:versionIRI <https://w3id.org/OntoExhibit/1.0.0> ;
+                                <http://purl.org/dc/terms/abstract> "OntoExhibit is a comprehensive ontology that accurately and extensively models the art exhibition domain. Designed to capture the complexity, multidimensionality and richness of these cultural domain, OntoExhibit provides a semantic framework that enables the organization, coherent linking of information and advanced querying." ;
+                                <http://purl.org/dc/terms/bibliographicCitation> "Nuria Rodríguez Ortega, Maria del Mar Roldán García, Martín Jerónimo Salvachúa, María Luisa Díez Platas. OntoExhibit version 1.0.0. URL: https://complexhibit-project.github.io/OntoExhibit/index-en.html#1.0.0" ;
                                 <http://purl.org/dc/terms/created> "2022-11" ;
                                 <http://purl.org/dc/terms/creator> "Maria del Mar Roldán García" ,
                                                                    "Martín Jerónimo Salvachúa" ,
                                                                    "María Luisa Díez Platas" ,
                                                                    "Nuria Rodriguez Ortega" ;
-                                <http://purl.org/dc/terms/description> "OntoExhibit is an innovative ontology that accurately and extensively models museums, exhibitions, and artworks. Designed to capture the complexity and richness of these cultural elements, OntoExhibit provides a semantic framework that enables the organization and coherent linking of information." ;
-                                <http://purl.org/dc/terms/rights> "https://opensource.org/licenses/MIT" ;
+                                <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+                                <http://purl.org/dc/terms/references> "Rodríguez Ortega, Nuria y Cruces Rodríguez, Antonio. «Development of Technological Ecosystems for Cultural Analysis: The Case of Expofinder System and Art Exhibitions», Digital Scholarship in the Humanities, 34, n. 2, pp. 423-448.  fqy018, Oxford University Press, 2019, ISSN: 2055-768X (online), DOI: https://doi.org/10.1093/llc/fqy018" ,
+                                                                      "Rodríguez Ortega, Nuria. «Contours of Knowledge: Epistemological Implications of Semantic Models in the Representation of the Art Exhibition Domain through the Lens of the OntoExhibit Ontology», Život umjetnosti, special issue (Digital Art History) (in press, 2024)." ;
                                 <http://purl.org/dc/terms/title> "OntoExhibit" ;
                                 <http://purl.org/vocab/vann/preferredNamespacePrefix> "oex" ;
                                 <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/OntoExhibit/" ;
-                                owl:versionInfo "1.0.0" .
+                                <http://schema.org/codeRepository> "https://github.com/Complexhibit-Project/"^^xsd:anyURI ;
+                                owl:versionInfo "1.0.0" ;
+                                <https://schema.org/funder> "https://ciencia.sede.gob.es/"^^xsd:anyURI ,
+                                                            "https://www.juntadeandalucia.es/"^^xsd:anyURI ;
+                                <https://schema.org/funding> "https://andalexproject.iarthislab.eu/"^^xsd:anyURI ,
+                                                             "https://complexhibit.eu/inicio/"^^xsd:anyURI ;
+                                <https://w3id.org/widoco/vocab#introduction> """OntoExhibit consists of an OWL 2 (Ontology Web Language) ontology designed to facilitate the adoption of FAIR (Findable, Accessible, Interoperable, and Reusable) principles in managing information associated with the art exhibition domain, as a fundamental mean to guarantee its standardization, interoperability, reusability, and the extraction of new and strategic knowledge within this cultural sector. Within this context, OntoExhibit is conceived as a comprehensive ontology designed to address the needs and requirements of a range of target scenarios: 1. art historians and researchers engaged in exhibition and curatorial studies; 2. cultural heritage professionals involved in recording and documenting art exhibitions; 3. museum and independent curators; 4. gallery owners; and 5. CCI and tourism stakeholders. 
+
+OntoExhibit is the result of transforming and extending the conceptual model underlying Expofinder, a relational database developed within the Exhibitium project (Rodríguez-Ortega, Cruces-Rodríguez, 2019). The Expofinder model adheres to the traditional conception of the exhibition field: a network made up of the relationships that exhibitions establish among heterogeneous actors (artists, curators, institutions, etc.) and the cultural objects displayed. This model served as the starting point for the design and construction of the OntoExhibit model, which is an enhanced version born out of a refined conceptualization of the exhibition field. This development was informed by extensive conversations and dialogues with a diverse community of researchers, curators, gallery owners, and art critics.
+OntoExhibit interprets the art exhibition domain as a complex cultural ecosystem, comprising a diverse array of actors (including both human and non-human entities) intertwined through discursive and social practices. These practices create a complex web of semantic layers that imbue the domain with symbolic values. OntoExhibit thus approaches the phenomenon of art exhibitions in its double condition: as a distinct discursive, social, and cultural production emerging from a set of practices and interactions, and as an active producer/generator of discourses and public spheres. These public spheres, in turn, are shaped by discursive and social practices that also convey meanings and generate symbolic value, which can influence subsequent exhibitions. This creates a dynamic and continuous cycle of cultural impact and significance. 
+According to this conceptualization, OntoExhibit aims to deepen our understanding of the structures, networks, and behavioral patterns within this cultural ecosystem; unravel its social, discursive, and semantic intricacies; and enhance our insights into the engagement of individuals and communities with cultural heritage through exhibitions. To this end, OntoExhibit integrates traditional modeling approaches of the art exhibition domain with new extensions.
+
+OntoExhibit is being aligned with reference ontologies, specifically with CIDOC-CRM (7.2.1.) and FRBRoo (3.0). These ontologies have informed the definition of some of the classes and properties, while new classes and properties are being created to respond to the requirements of the art exhibition domain as defined in section 1. This is not a CIDOC-CRM specification as such, as only a few entities and properties have been adopted to facilitate alignment. OntoExhibit presents a conceptual structure and a hierarchy of classes different from that of CIDOC-CRM, which is better suited to the current configuration of the art exhibition domain and to the conceptualization of this phenomenon as a complex cultural ecosystem (Rodríguez Ortega, in press).
+
+This research has been funded by the Ministerio de Ciencia e Innovación (Spanish Government), grant number PID2021-125037NB-I00, and by the Junta de Andalucía, grant numbers PY20_00508, UMA20-FEDERJA-126.
+
+Referenced ontologies
+frbroo: https://www.iflastandards.info/fr/frbr/frbroo.html
+cidoc-crm: http://www.cidoc-crm.org/cidoc-crm/
+
+Referenced ontology design patterns
+agentRole: http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl""" .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/dc/terms/contributor
 <http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
@@ -38,6 +70,14 @@
 
 ###  http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/references
+<http://purl.org/dc/terms/references> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/rights
@@ -56,6 +96,10 @@
 <http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
 
 
+###  http://schema.org/codeRepository
+<http://schema.org/codeRepository> rdf:type owl:AnnotationProperty .
+
+
 ###  http://www.w3.org/2002/07/owl#equivalentClass
 owl:equivalentClass rdf:type owl:AnnotationProperty .
 
@@ -66,6 +110,18 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/2002/07/owl#versionIRI
 owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/funder
+<https://schema.org/funder> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/funding
+<https://schema.org/funding> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/widoco/vocab#introduction
+<https://w3id.org/widoco/vocab#introduction> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -2972,5 +3028,8 @@ owl:versionIRI rdf:type owl:AnnotationProperty .
                                                     rdfs:label "corporate body"@en ,
                                                                "organismos corporativos"@es .
 
+
+[ rdfs:label "Junta de Andalucía"
+] .
 
 ###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
