@@ -96,7 +96,9 @@ If you use **OntoExhibit** in academic publications, please cite it as follows.
 
 ### 📘 Text citation
 
-> Rodríguez Ortega, N. (2024). *OntoExhibit: An ontology for modelling the art exhibition domain*. iArtHis_Lab. https://github.com/iArtHis-Lab/OntoExhibit
+> Rodríguez Ortega, N.; Salvachúa, M. J.; Roldán, M. del M. (2024).  
+> *OntoExhibit: An ontology for modelling the art exhibition domain*.  
+> iArtHis_Lab. https://github.com/iArtHis-Lab/OntoExhibit
 
 ### 📄 BibTeX
 
