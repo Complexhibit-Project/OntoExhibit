@@ -102,7 +102,7 @@ If you use **OntoExhibit** in academic publications, please cite it as follows.
 
 ```bibtex
 @misc{OntoExhibit2024,
-  author       = {Rodríguez Ortega, Nuria},
+  author       = {Rodríguez Ortega, Nuria and Salvachúa, Martín Jerónimo and Roldán, María del Mar},
   title        = {OntoExhibit: An ontology for modelling the art exhibition domain},
   year         = {2024},
   publisher    = {iArtHis\_Lab},
