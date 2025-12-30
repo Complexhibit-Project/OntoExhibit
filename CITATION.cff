@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use OntoExhibit in your research, please cite it as follows."
+title: "OntoExhibit: An ontology for modelling the art exhibition domain"
+authors:
+  - family-names: Rodríguez Ortega
+    given-names: Nuria
+  - family-names: Salvachúa
+    given-names: Martín Jerónimo
+  - family-names: Roldán
+    given-names: María del Mar
+version: "1.0.0"
+date-released: 2024-01-01
+publisher: iArtHis_Lab
+url: https://github.com/iArtHis-Lab/OntoExhibit
+license: CC-BY-4.0
+keywords:
+  - Digital Art History
+  - Digital Humanities
+  - Ontologies
+  - Semantic Web
+  - Art Exhibitions
+  - Cultural Heritage
