@@ -98,7 +98,7 @@ If you use **OntoExhibit** in academic publications, please cite it as follows.
 
 > Rodríguez Ortega, N.; Salvachúa, M. J.; Roldán, M. del M. (2024).  
 > *OntoExhibit: An ontology for modelling the art exhibition domain*.  
-> iArtHis_Lab. https://github.com/iArtHis-Lab/OntoExhibit
+> iArtHis_Lab. https://w3id.org/OntoExhibit
 
 ### 📄 BibTeX
 
@@ -108,12 +108,18 @@ If you use **OntoExhibit** in academic publications, please cite it as follows.
   title        = {OntoExhibit: An ontology for modelling the art exhibition domain},
   year         = {2024},
   publisher    = {iArtHis\_Lab},
-  url          = {https://github.com/iArtHis-Lab/OntoExhibit},
+  url          = {https://w3id.org/OntoExhibit},
   note         = {OWL 2 ontology}
 }
 ```
 
 For citation managers and GitHub integration, see the `CITATION.cff` file included in this repository.
+
+---
+
+## 📚 Related Publications
+
+A curated list of scholarly publications directly related to the OntoExhibit ontology is available in [`PUBLICATIONS.md`](PUBLICATIONS.md).
 
 ---
 
@@ -140,7 +146,7 @@ For questions regarding the ontology, maintenance, or long-term availability, pl
 - **María Luisa Díez Platas**  
   📧 marialuisa.diez@unir.net  
 
-At least one of the listed contacts commits to maintaining this resource and its resolution over time.
+At least one of the listed contacts commits to maintaining this resource and its persistent identifier resolution over time.
 
 ---
 
