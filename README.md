@@ -12,6 +12,7 @@
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)
 ![Domain](https://img.shields.io/badge/Domain-Art%20Exhibitions-informational)
 ![Status](https://img.shields.io/badge/Status-Active-green)
+![Version](https://img.shields.io/badge/version-v1.1.0-blue)
 
 </div>
 
@@ -109,7 +110,7 @@ If you use **OntoExhibit** in academic publications, please cite it as follows.
   year         = {2024},
   publisher    = {iArtHis\_Lab},
   url          = {https://w3id.org/OntoExhibit},
-  note         = {OWL 2 ontology}
+  note         = {OWL 2 ontology, version 1.1.0}
 }
 ```
 

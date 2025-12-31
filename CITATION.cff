@@ -8,8 +8,8 @@ authors:
     given-names: Martín Jerónimo
   - family-names: Roldán
     given-names: María del Mar
-version: "1.0.0"
-date-released: 2024-01-01
+version: "1.1.0"
+date-released: 2025-12-31
 publisher: iArtHis_Lab
 url: https://github.com/iArtHis-Lab/OntoExhibit
 license: CC-BY-4.0
