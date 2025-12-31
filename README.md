@@ -166,9 +166,11 @@ This work is distributed under a
   **Digital Scholarship in the Humanities**, 34(2), 423–448.  
   DOI: https://doi.org/10.1093/llc/fqy018
 
-- Rodríguez Ortega, Nuria (2024).  
+- Rodríguez-Ortega, Nuria (2024).  
   *Contours of Knowledge: Epistemological Implications of Semantic Models in the Representation of the Art Exhibition Domain through the Lens of the OntoExhibit Ontology*.  
-  **Život umjetnosti**, special issue (Digital Art History). *(in press)*
+  **Život umjetnosti**, vol. 114, no. 1, pp. 122–147.  
+  ISSN: 0514-7794.  
+  https://doi.org/10.31664/zu.2024.114.06
 
 ---
 
