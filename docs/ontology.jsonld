@@ -1473,7 +1473,7 @@
   } ],
   "https://schema.org/codeRepository" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
-    "@value" : "https://github.com/iArtHis-Lab/OntoExhibit"
+    "@value" : "https://github.com/Complexhibit-Project/OntoExhibit"
   } ],
   "https://schema.org/funder" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
